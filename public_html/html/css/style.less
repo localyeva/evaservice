@@ -8,7 +8,7 @@
 @light-grey: #cfcfcf;
 @grey: #959595;
 @color-alink: #fff;
-@navbar-height: 100px;
+@navbar-height: 70px;
 @body-font-size: 13px;
 @bold: 800;
 @title-font-size: 2.143em;
@@ -291,7 +291,7 @@
         }
     }
     .header-why {
-        background: #fff url('../img/64.png') no-repeat !important;
+        /* background: #fff url('../img/64.png') no-repeat !important; */
         background-size: 100% 40% !important;
         padding-top: 20px !important;
         padding-bottom: 0px !important;
@@ -505,7 +505,6 @@ h1 {
 // navigation bar
 .navbar-default {
     margin-bottom: 0;
-    height: @navbar-height;
     background: rgba(255,255,255,0.8);
     .navbar-nav {
         display: inline-block;
@@ -525,10 +524,6 @@ h1 {
             }
         }
     }
-    .navbar-collapse {
-        text-align: center;
-        padding-left: 14%;
-    }
 }
 
 .mobile-menu{
@@ -537,8 +532,8 @@ h1 {
 .mobie-brand{
     padding-top: 3%;
 }
-.logo-mobie{
-    padding-left: 13%;
+#responsive-menu-button {
+    padding: 0px 0px 6px 0px;
 }
 #sidr-main {
     .sidr-class-navbar-brand {
@@ -2309,6 +2304,18 @@ div.box_txt{
         max-width: 100%;
     }
 }
+
+#myCarousel {
+    .carousel-caption {
+        top: 50%;
+        bottom: 50%;
+        padding-top: 0;
+        h2 {
+            display: block;
+        }
+    }
+}
+
 @media (min-width: 320px){
     #bpo-profile{
         .bpo-1{

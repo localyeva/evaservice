@@ -11,7 +11,7 @@
     <title>TOP | オフショア ベトナム｜ベトナムでのラボ型開発、BPOならエボラブルアジア</title>
 
     <!-- Bootstrap -->
-    <!--<link href="http://evacorp2.localhost/wp-content/themes/eva2015/css/bootstrap.min.css" rel="stylesheet">-->
+    <!--<link href="http://evaservice.localhost/wp-content/themes/eva2015/css/bootstrap.min.css" rel="stylesheet">-->
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link href="css/jquery.sidr.dark.css" rel="stylesheet">
@@ -22,7 +22,7 @@
           <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
           <![endif]-->
           <script type="text/javascript">
-          window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/evacorp2.localhost\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4"}};
+          window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/evaservice.localhost\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.4"}};
           !function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56806,55356,56826),0,0),c.toDataURL().length>3e3):("simple"===a?d.fillText(String.fromCharCode(55357,56835),0,0):d.fillText(String.fromCharCode(55356,57135),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag"),unicode8:d("unicode8")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag&&c.supports.unicode8||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
           </script>
           <style type="text/css">
@@ -39,10 +39,10 @@
              padding: 0 !important;
          }
          </style>
-         <link rel='stylesheet' id='wp-pagenavi-css'  href='http://evacorp2.localhost/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
-         <link rel='https://api.w.org/' href='http://evacorp2.localhost/wp-json/' />
-         <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://evacorp2.localhost/xmlrpc.php?rsd" />
-         <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://evacorp2.localhost/wp-includes/wlwmanifest.xml" />
+         <link rel='stylesheet' id='wp-pagenavi-css'  href='http://evaservice.localhost/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
+         <link rel='https://api.w.org/' href='http://evaservice.localhost/wp-json/' />
+         <link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://evaservice.localhost/xmlrpc.php?rsd" />
+         <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://evaservice.localhost/wp-includes/wlwmanifest.xml" />
          <meta name="generator" content="WordPress 4.4" />
          <style>
          </style>
@@ -53,51 +53,41 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 text-center navbar-collapse collapse visible-md">
-                            <div class="pull-right" style="position: relative;">
-                                <ul class="top-recruit-lst">
-                                    <li>Recruit for</li>
-                                    <li><a href="http://evacorp2.localhost/recruit_ja">Japanese</a></li>
-                                    <li><a href="http://jobs.evolable.asia">Vietnamese</a></li>
+                            <div class="col-md-4">
+                                <a href="#">
+                                    <img src="http://evaservice.localhost/html/img/Logo-banner143413.png" class="img-responsive" style="margin-top:10px;" />
+                                </a>
+                            </div>
+                            <div class="navbar-collapse collapse col-md-8 pull-right">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li><a href="#">Home</a></li>
+                                    <li><a href="#">Working Environment</a></li>
+                                    <li><a href="#">Join Us Now</a></li>
                                 </ul>
                             </div>
-                            <ul class="nav navbar-nav">
-                                <li><a href="http://evacorp2.localhost">Home</a></li>
-                                <li><a href="http://evacorp2.localhost/company/">About Evolable Asia</a></li>
-                                <li><a href="http://evacorp2.localhost/company/reason">選ばれる理由</a></li>
-                                <li>
-                                    <a href="http://evacorp2.localhost">
-                                        <img class="img-responsives" src="http://evacorp2.localhost/wp-content/uploads/29.png">
-                                    </a>
-                                </li>
-                                <li><a href="http://evacorp2.localhost/service">サービス</a></li>
-                                <li><a href="http://evacorp2.localhost/news">ニュース</a></li>
-                                <li>
-                                    <a href="http://evacorp2.localhost/contact/">お問い合わせ</a>
-                                </li>
-                            </ul>
                         </div>
                         <div class="col-xs-12 visible-xs text-center no-padding-lr">
                             <div class="navbar-header mobie-brand">
-                                <a class="logo-mobie" href="http://evacorp2.localhost">
-                                    <img alt="Brand" src="http://evacorp2.localhost/wp-content/themes/eva2015/img/29.png">
-                                </a>
-                                <a id="responsive-menu-button" class="btn btn-toggle navbar-btn pull-right" href="#">
-                                    <span class="sr-only">Toggle navigation</span>
-                                    <span class="fa fa-bars fa-lg"></span>
-                                </a>
+                                <div class="col-xs-8">
+                                    <a class="logo-mobie" href="#">
+                                        <img alt="Brand" src="http://evaservice.localhost/html/img/Logo-banner143413.png" class="img-responsive" />
+                                    </a>
+                                </div>
+                                <div class="col-xs-4">
+                                    <a id="responsive-menu-button" class="btn btn-toggle navbar-btn pull-right" href="#">
+                                        <span class="sr-only">Toggle navigation</span>
+                                        <span class="fa fa-bars fa-lg"></span>
+                                    </a>
+                                </div>
                             </div>
                             <div class="row mobile-menu" id="sidr">
                                 <div class="col-xs-12">
                                     <ul class="nav navbar-nav">
-                                        <li><a href="http://evacorp2.localhost">Home</a></li>
-                                        <li><a href="http://evacorp2.localhost/company/">About EvolableAsia</a></li>
-                                        <li><a href="http://evacorp2.localhost/company/reason">選ばれる理由</a></li>
-                                        <li><a href="http://evacorp2.localhost/service">サービス</a></li>
-                                        <li><a href="http://evacorp2.localhost/news">ニュース</a></li>
-                                        <li>Recruit for</li>
-                                        <li><a href="http://evacorp2.localhost/recruit_ja">Japanese</a></li>
-                                        <li><a href="http://jobs.evolable.asia">Vietnamese</a></li>
-                                        <li><a href="http://evacorp2.localhost/contact/">お問い合わせ</a></li>
+                                        <li><a href="#">Home</a></li>
+                                        <li><a href="#">About EvolableAsia</a></li>
+                                        <li><a href="#">選ばれる理由</a></li>
+                                        <li><a href="#">サービス</a></li>
+                                        <li><a href="#">ニュース</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -117,10 +107,10 @@
             <!-- Wrapper for slides -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                    <div class="parallax-window" data-parallax="scroll" data-image-src="http://evacorp2.localhost/wp-content/uploads/testparallax.jpg"></div>
+                    <div class="parallax-window" data-parallax="scroll" data-image-src="http://evaservice.localhost/html/img/testparallax.jpg"></div>
                 </div>
                 <div class="item ">
-                    <div class="parallax-window" data-parallax="scroll" data-image-src="http://evacorp2.localhost/wp-content/uploads/testparallax2.jpg"></div>
+                    <div class="parallax-window" data-parallax="scroll" data-image-src="http://evaservice.localhost/html/img/testparallax2.jpg"></div>
                 </div>
             </div>
 
@@ -150,7 +140,7 @@
                         <div class="text-small">2012年の設立以降、今では東南アジア地域で日系最大規模のラボ型オフショア開発企業としてさらに成長を続けるEvolable Asia。その成長の背景には、「高品質な人材の提供」と「安心のサポートシステム」があります。Evolable Asiaでは質が高く幅広い技術者を豊富に確保し、最適な環境で終業してもらえるノウハウと実績を持っています。また日本人ラボマネージャーが常駐し、初めてベトナム進出する企業も、より安心して業務をスタートできるようなサポートシステムが整っています。詳しくはこちらのページをご覧ください。
                         </div>
                         <div class="">
-                            <a href="http://evacorp2.localhost/company/reason/" class="btn btn-slim">
+                            <a href="http://evaservice.localhost/company/reason/" class="btn btn-slim">
                                 <i class="fa fa-angle-right"></i>エボラブルアジアが選ばれる理由
                             </a>
                         </div>
@@ -185,6 +175,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                         <div class="row-gap-small"></div>
                         <a href="#" class="simple-btn black">LEARN MORE</a>
+                        <div class="row-gap-medium"></div>
                     </div>
                 </div>
             </div>
@@ -197,6 +188,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                         <div class="row-gap-small"></div>
                         <a href="#" class="simple-btn black">LEARN MORE</a>
+                        <div class="row-gap-medium"></div>
                     </div>
                 </div>
                 <div class="col-xs-12 col-md-6 no-padding-lr sv-main-block wow fadeInRight">
@@ -215,6 +207,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                         <div class="row-gap-small"></div>
                         <a href="#" class="simple-btn black">LEARN MORE</a>
+                        <div class="row-gap-medium"></div>
                     </div>
                 </div>
             </div>
@@ -227,6 +220,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                         <div class="row-gap-small"></div>
                         <a href="#" class="simple-btn black">LEARN MORE</a>
+                        <div class="row-gap-medium"></div>
                     </div>
                 </div>
                 <div class="col-xs-12 col-md-6 no-padding-lr sv-main-block wow fadeInRight">
@@ -245,6 +239,7 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                         <div class="row-gap-small"></div>
                         <a href="#" class="simple-btn black">LEARN MORE</a>
+                        <div class="row-gap-medium"></div>
                     </div>
                 </div>
             </div>
@@ -256,7 +251,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12 col-md-4 news-main-block wow fadeInUp" data-wow-delay="0s">
-                            <a class="news-hover" href="http://evacorp2.localhost/news/%e7%ac%ac%e4%b8%89%e5%9b%9e-%e6%97%a5%e6%9c%ac%e8%aa%9eit%e8%83%bd%e5%8a%9b%e8%a9%a6%e9%a8%93%ef%bc%88japanese-literacy-and-it-test-%e5%ae%9f%e6%96%bd%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b">
+                            <a class="news-hover" href="http://evaservice.localhost/news/%e7%ac%ac%e4%b8%89%e5%9b%9e-%e6%97%a5%e6%9c%ac%e8%aa%9eit%e8%83%bd%e5%8a%9b%e8%a9%a6%e9%a8%93%ef%bc%88japanese-literacy-and-it-test-%e5%ae%9f%e6%96%bd%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b">
                                 <img src="http://evacorp2.localhost/wp-content/uploads/234242fvvd1.png" alt="" style="width:100%; height:auto;">
                                 <div class="caption-eva" ></div>
                                 <span class="overlay"></span>
@@ -270,7 +265,7 @@
                             </a>
                         </div>
                         <div class="col-xs-12 col-md-4 news-main-block wow fadeInUp" data-wow-delay="0.5s">
-                            <a class="news-hover" href="http://evacorp2.localhost/news/%e3%83%8a%e3%82%b7%e3%83%a7%e3%83%8a%e3%83%ab%e3%83%95%e3%83%83%e3%83%88%e3%83%9c%e3%83%bc%e3%83%ab%e3%83%81%e3%83%bc%e3%83%a0%e3%81%b9%e3%83%88%e3%83%8a%e3%83%a0%e4%bb%a3%e8%a1%a8%e3%81%a8%e3%81%ae">
+                            <a class="news-hover" href="http://evaservice.localhost/news/%e3%83%8a%e3%82%b7%e3%83%a7%e3%83%8a%e3%83%ab%e3%83%95%e3%83%83%e3%83%88%e3%83%9c%e3%83%bc%e3%83%ab%e3%83%81%e3%83%bc%e3%83%a0%e3%81%b9%e3%83%88%e3%83%8a%e3%83%a0%e4%bb%a3%e8%a1%a8%e3%81%a8%e3%81%ae">
                                 <img src="http://evacorp2.localhost/wp-content/uploads/2_020151126145612_ejdQ9-1.jpg" alt="" style="width:100%; height:auto;">
                                 <div class="caption-eva" ></div>
                                 <span class="overlay"></span>
@@ -284,7 +279,7 @@
                             </a>
                         </div>
                         <div class="col-xs-12 col-md-4 news-main-block wow fadeInUp" data-wow-delay="1s">
-                            <a class="news-hover" href="http://evacorp2.localhost/news/asia-ventures-summit-%e7%99%bb%e5%a3%87%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b">
+                            <a class="news-hover" href="http://evaservice.localhost/news/asia-ventures-summit-%e7%99%bb%e5%a3%87%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b">
                                 <img src="http://evacorp2.localhost/wp-content/uploads/5641c68614fa6fbc6fa0ef3f_for_web.jpg" alt="" style="width:100%; height:auto;">
                                 <div class="caption-eva" ></div>
                                 <span class="overlay"></span>
@@ -300,7 +295,7 @@
                     </div>
                     <div class="row">
                         <div class="col-xs-12 col-md-12 text-center">
-                            <a href="http://evacorp2.localhost/news">
+                            <a href="http://evaservice.localhost/news">
                                 <button class="btn btn-slim "><span class="glyphicon glyphicon-plus"></span>View All</button>
                             </a>
                         </div>
@@ -314,8 +309,7 @@
                     <div class="row-gap-big"></div>
                     <div class="row">
                         <div class="col-md-12">
-                            <h4 class="stretch">高度成長を遂げるベトナムでのラボ型開発・BPOの魅力</h4>
-                            <p></p>
+                            <h4>高度成長を遂げるベトナムでのラボ型開発・BPOの魅力</h4>
                         </div>
                     </div>
                     <div class="row-gap-medium"></div>
@@ -338,7 +332,7 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12 center-block page-top">
-                            <img src="http://evacorp2.localhost/wp-content/themes/eva2015/img/28.png" alt="" class="img-responsive img-top hand" id="img-back-top">
+                            <img src="http://evaservice.localhost/html/img/28.png" alt="" class="img-responsive img-top hand" id="img-back-top">
                         </div>
                     </div>
                     <div class="row">
@@ -347,13 +341,13 @@
                                 <div class="col-xs-12 col-md-4">
                                     <div class="row">
                                         <div class="col-xs-12">
-                                            <img src="http://evacorp2.localhost/wp-content/themes/eva2015/img/30.png" alt="" class="img-responsive center-block">
+                                            <img src="http://evaservice.localhost/html/img/30.png" alt="" class="img-responsive center-block">
                                         </div>
                                     </div>
                                     <div class="row-gap-small"></div>
                                     <div class="row">
                                         <div class="col-xs-12">
-                                            <div class="btn btn-slim ev-mobie-footer center-block"><a class="alnk" href="http://evacorp2.localhost/contact">お問い合わせ</a></div>
+                                            <div class="btn btn-slim ev-mobie-footer center-block"><a class="alnk" href="http://evaservice.localhost/contact">お問い合わせ</a></div>
                                         </div>
                                     </div>
                                     <div class="row-gap-small"></div>
@@ -366,13 +360,13 @@
                                 </div>
                                 <div class="col-xs-12 no-padding-lr menu-footer-mobi">
                                     <ul class="nav navbar-nav">
-                                        <li><a href="http://evacorp2.localhost">Home <span class="glyphicon glyphicon-menu-right right-icon" aria-hidden="true"></span></a></li>
-                                        <li><a href="http://evacorp2.localhost/company">About EvolableAsia <span class="glyphicon glyphicon-menu-right right-icon" aria-hidden="true"></span></a></li>
-                                        <li><a href="http://evacorp2.localhost/company/reason">選ばれる理由<span class="glyphicon glyphicon-menu-right right-icon" aria-hidden="true"></span></a></li>
-                                        <li><a href="http://evacorp2.localhost/service">サービス <span class="glyphicon glyphicon-menu-right right-icon" aria-hidden="true"></span></a></li>
-                                        <li><a href="http://evacorp2.localhost/news">ニュース <span class="glyphicon glyphicon-menu-right right-icon" aria-hidden="true"></span></a></li>
-                                        <li><a href="http://evacorp2.localhost/recruit_ja">Recruit <span class="glyphicon glyphicon-menu-right right-icon" aria-hidden="true"></span></a></li>
-                                        <li><a href="http://evacorp2.localhost/contact/" class="active">お問い合わせ <span class="glyphicon glyphicon-menu-right right-icon" aria-hidden="true"></span></a></li>
+                                        <li><a href="http://evaservice.localhost">Home <span class="glyphicon glyphicon-menu-right right-icon" aria-hidden="true"></span></a></li>
+                                        <li><a href="http://evaservice.localhost/company">About EvolableAsia <span class="glyphicon glyphicon-menu-right right-icon" aria-hidden="true"></span></a></li>
+                                        <li><a href="http://evaservice.localhost/company/reason">選ばれる理由<span class="glyphicon glyphicon-menu-right right-icon" aria-hidden="true"></span></a></li>
+                                        <li><a href="http://evaservice.localhost/service">サービス <span class="glyphicon glyphicon-menu-right right-icon" aria-hidden="true"></span></a></li>
+                                        <li><a href="http://evaservice.localhost/news">ニュース <span class="glyphicon glyphicon-menu-right right-icon" aria-hidden="true"></span></a></li>
+                                        <li><a href="http://evaservice.localhost/recruit_ja">Recruit <span class="glyphicon glyphicon-menu-right right-icon" aria-hidden="true"></span></a></li>
+                                        <li><a href="http://evaservice.localhost/contact/" class="active">お問い合わせ <span class="glyphicon glyphicon-menu-right right-icon" aria-hidden="true"></span></a></li>
                                     </ul>
                                 </div>
                                 <div class="col-xs-4 col-md-4 hidden-xs">
@@ -419,8 +413,8 @@
                                     <label>HOME</label>
                                     <div class="row">
                                         <div class="col-xs-12">
-                                            <p class="small"><a class="alnk" href="http://evacorp2.localhost/company/reason/">選ばれる理由</a></p>
-                                            <p class="small"><a class="alnk" data-goto="header-service" href="http://evacorp2.localhost/service">サービス</a></p>
+                                            <p class="small"><a class="alnk" href="http://evaservice.localhost/company/reason/">選ばれる理由</a></p>
+                                            <p class="small"><a class="alnk" data-goto="header-service" href="http://evaservice.localhost/service">サービス</a></p>
                                             <p class="small"><a class="alnk" href="service/about_labo"><i class="fa fa-angle-right"></i> Offshore Development</a></p>
                                             <p class="small"><a class="alnk" href="service/about_bpo"><i class="fa fa-angle-right"></i> BPO</a></p>
                                             <p class="small"><a class="alnk" href="/service/game-secondary-plan"><i class="fa fa-angle-right"></i> Game secondary plan</a></p>
@@ -452,25 +446,25 @@
                                         <div class="col-xs-12">
                                             <p class="small">Recruit</p>
                                             <p class="small"><a class="alnk" href="http://jobs.evolable.asia"><i class="fa fa-angle-right"></i> Vietnamese</a></p>
-                                            <p class="small"><a class="alnk" href="http://evacorp2.localhost/recruit_ja"><i class="fa fa-angle-right"></i> Japanese</a></p>
+                                            <p class="small"><a class="alnk" href="http://evaservice.localhost/recruit_ja"><i class="fa fa-angle-right"></i> Japanese</a></p>
                                         </div>
                                     </div>
-                                    <label><a class="alnk" href="http://evacorp2.localhost/contact">お問い合わせ</a></label>
+                                    <label><a class="alnk" href="http://evaservice.localhost/contact">お問い合わせ</a></label>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <script src="http://evacorp2.localhost/wp-content/themes/eva2015/js/jquery.min.js"></script>
-            <script src="http://evacorp2.localhost/wp-content/themes/eva2015/js/bootstrap.min.js"></script>
-            <script src="http://evacorp2.localhost/wp-content/themes/eva2015/js/jquery-ui.js"></script>
-            <script src="http://evacorp2.localhost/wp-content/themes/eva2015/js/jquery.heightLine.js"></script>
-            <script src="http://evacorp2.localhost/wp-content/themes/eva2015/js/jquery.sidr.min.js"></script>
-            <script src="http://evacorp2.localhost/wp-content/themes/eva2015/js/masonry.pkgd.min.js"></script>
-            <script src="http://evacorp2.localhost/wp-content/themes/eva2015/js/wow.js"></script>
-            <script src="http://evacorp2.localhost/wp-content/themes/eva2015/assets/parallax/parallax.js"></script>
-            <script src="http://evacorp2.localhost/wp-content/themes/eva2015/js/common.js"></script>
-            <script type='text/javascript' src='http://evacorp2.localhost/wp-includes/js/wp-embed.min.js?ver=4.4'></script>
+            <script src="http://evaservice.localhost/html/js/jquery.min.js"></script>
+            <script src="http://evaservice.localhost/html/js/bootstrap.min.js"></script>
+            <script src="http://evaservice.localhost/html/js/jquery-ui.js"></script>
+            <script src="http://evaservice.localhost/html/js/jquery.heightLine.js"></script>
+            <script src="http://evaservice.localhost/html/js/jquery.sidr.min.js"></script>
+            <script src="http://evaservice.localhost/html/js/masonry.pkgd.min.js"></script>
+            <script src="http://evaservice.localhost/html/js/wow.js"></script>
+            <script src="http://evaservice.localhost/html/js/parallax/parallax.js"></script>
+            <script src="http://evaservice.localhost/html/js/common.js"></script>
+            <script type='text/javascript' src='http://evaservice.localhost/wp-includes/js/wp-embed.min.js?ver=4.4'></script>
         </body>
         </html>
