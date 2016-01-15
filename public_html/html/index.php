@@ -133,7 +133,7 @@
         <div class="container-fluid header-why">
             <div class="row">
                 <div class="container">
-                    <div class="col-md-7 hidden-xs why-text-right">
+                    <div class="col-md-7 why-text-right">
                         <h2>EVA Solution and Business Consultancy</h2>
                         <h3>私たちは経験豊富なエンジニアの採用に自信があります。<br/>御社の開発チームを迅速に構築します。</h3>
                         <div class="row-gap-small"></div>
@@ -145,7 +145,7 @@
                             </a>
                         </div>
                     </div>
-                    <div class="col-md-5 hidden-xs why-text-left text-left">
+                    <div class="col-md-5 why-text-left text-left">
                         <div class="row-gap-big"></div>
                         <img src="http://dummy-images.com/food/dummy-454x280-KiwiSolo.jpg" alt="" class="img-responsive" />
                     </div>
