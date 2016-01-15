@@ -120,12 +120,14 @@ $(function () {
             if (scroll > lastScrollTop) {
                 nav.addClass('invisible').removeClass('visible');
             } else {
-                nav.removeClass('invisible').addClass('visible');
+                nav.addClass('visible').removeClass('invisible');
             }
         } else {
             if (nav.hasClass('navbar-fixed-top')) {
                 if (scroll == 0) {
-                    nav.removeClass('navbar-fixed-top');
+                    nav.removeClass('navbar-fixed-top')
+                        .removeClass('invisible')
+                        .addClass('visible');
                 }
             }
         }
