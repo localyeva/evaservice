@@ -72,7 +72,7 @@ if ($loop->have_posts()) {
             </div>
             <div class="col-md-5 why-text-left text-left">
                 <div class="row-gap-big"></div>
-                <img src="http://dummy-images.com/food/dummy-454x280-KiwiSolo.jpg" alt="" class="img-responsive" />
+                <img src="http://evaservice.localhost/wp-content/uploads/2016/01/koppos32a6ml.jpg" alt="" class="img-responsive" />
             </div>
         </div>
     </div>
@@ -151,52 +151,65 @@ if ($loop->have_posts()) {
     <h1 class="text-center">News</h1>
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-md-4 news-main-block wow fadeInUp" data-wow-delay="0s">
-                <a class="news-hover" href="http://evaservice.localhost/news/%e7%ac%ac%e4%b8%89%e5%9b%9e-%e6%97%a5%e6%9c%ac%e8%aa%9eit%e8%83%bd%e5%8a%9b%e8%a9%a6%e9%a8%93%ef%bc%88japanese-literacy-and-it-test-%e5%ae%9f%e6%96%bd%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b">
-                    <img src="http://evacorp2.localhost/wp-content/uploads/234242fvvd1.png" alt="" style="width:100%; height:auto;">
-                    <div class="caption-eva" ></div>
-                    <span class="overlay"></span>
-                    <div class="caption left">
-                        <div class="news-main-title">
-                            <span class="date-text">2015.12.11</span>
-                            <span class="categories-text categories-yellow">リリース</span>
-                        </div>
-                        <h2 class="intro more">第三回 日本語IT能力試験（Japanese Literacy and It Test ) 実施のお知らせ</h2>
+            <?php
+                $all_bg_color = array('categories-pink', 'categories-blue', 'categories-yellow');
+                $bg_color = array();
+                $terms = get_terms('news-category', 'hide_empty=0');
+                $i = 0;
+                foreach ($terms as $term) {
+                    $all_terms[] = $term->name;
+                    $bg_color[$i % 3] = $all_bg_color[$i % 3];
+                    $i++;
+                }
+                $class_category = array_combine($all_terms, $bg_color);
+                //
+                $time2 = 0;
+                $args = array(
+                    'post_type' => 'news',
+                    'posts_per_page' => 3,
+                    'orderby' => array('date' => 'DESC'),
+                );
+                $loop = new WP_Query($args);
+            ?>
+            <?php if ($loop->have_posts()) { ?>
+                <?php $num_posts = count($loop->posts); ?>
+                <?php while ($loop->have_posts()) { ?>
+                    <?php
+                        $loop->the_post();
+                        $postId = get_the_ID();
+                        $terms = get_the_terms($postId, 'news-category');
+                        $news_img = get_field('featured_image');
+                        $categories = array();
+                        if (is_array($terms) && count($terms) > 0) {
+                            foreach ($terms as $term) {
+                                $categories[] = $term->name;
+                            }
+                        }
+                    ?>
+                    <div class="col-xs-12 col-md-4 news-main-block wow fadeInUp" data-wow-delay="<?php echo $time2; ?>s">
+                        <a class="news-hover" href="<?php the_permalink() ?>">
+                            <img src="<?php echo $news_img['url']; ?>" alt="" style="width:100%; height:auto;">
+                            <div class="caption-eva" ></div>
+                            <span class="overlay"></span>
+                            <div class="caption left">
+                                <div class="news-main-title">
+                                    <span class="date-text"><?php echo get_the_date('Y.m.d', $postId); ?></span>
+                                    <?php if (count($categories) > 0) { ?>
+                                        <span class="categories-text <?php echo $class_category[$term->name] ?>"><?php echo implode(', ', $categories); ?></span>
+                                    <?php } ?>
+                                </div>
+                                <h2 class="intro more"><?php the_title(); ?></h2>
+                            </div>
+                        </a>
                     </div>
-                </a>
-            </div>
-            <div class="col-xs-12 col-md-4 news-main-block wow fadeInUp" data-wow-delay="0.5s">
-                <a class="news-hover" href="http://evaservice.localhost/news/%e3%83%8a%e3%82%b7%e3%83%a7%e3%83%8a%e3%83%ab%e3%83%95%e3%83%83%e3%83%88%e3%83%9c%e3%83%bc%e3%83%ab%e3%83%81%e3%83%bc%e3%83%a0%e3%81%b9%e3%83%88%e3%83%8a%e3%83%a0%e4%bb%a3%e8%a1%a8%e3%81%a8%e3%81%ae">
-                    <img src="http://evacorp2.localhost/wp-content/uploads/2_020151126145612_ejdQ9-1.jpg" alt="" style="width:100%; height:auto;">
-                    <div class="caption-eva" ></div>
-                    <span class="overlay"></span>
-                    <div class="caption left">
-                        <div class="news-main-title">
-                            <span class="date-text">2015.11.24</span>
-                            <span class="categories-text categories-pink">企業情報</span>
-                        </div>
-                        <h2 class="intro more">ナショナルフットボールチーム(べトナム代表)とのスポンサー契約を締結</h2>
-                    </div>
-                </a>
-            </div>
-            <div class="col-xs-12 col-md-4 news-main-block wow fadeInUp" data-wow-delay="1s">
-                <a class="news-hover" href="http://evaservice.localhost/news/asia-ventures-summit-%e7%99%bb%e5%a3%87%e3%81%ae%e3%81%8a%e7%9f%a5%e3%82%89%e3%81%9b">
-                    <img src="http://evacorp2.localhost/wp-content/uploads/5641c68614fa6fbc6fa0ef3f_for_web.jpg" alt="" style="width:100%; height:auto;">
-                    <div class="caption-eva" ></div>
-                    <span class="overlay"></span>
-                    <div class="caption left">
-                        <div class="news-main-title">
-                            <span class="date-text">2015.11.18</span>
-                            <span class="categories-text categories-blue">パブリシティ</span>
-                        </div>
-                        <h2 class="intro more">Asia Ventures Summit 登壇のお知らせ</h2>
-                    </div>
-                </a>
-            </div>
+                    <?php $time2+= 0.5; ?>
+                <?php } ?>
+            <?php } ?>
+            <?php wp_reset_postdata() ?>
         </div>
         <div class="row">
             <div class="col-xs-12 col-md-12 text-center">
-                <a href="http://evaservice.localhost/news">
+                <a href="<?php echo home_url('news') ?>">
                     <button class="btn btn-slim "><span class="glyphicon glyphicon-plus"></span>View All</button>
                 </a>
             </div>
