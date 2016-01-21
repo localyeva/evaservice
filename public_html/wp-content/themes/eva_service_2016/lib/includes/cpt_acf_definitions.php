@@ -59,7 +59,7 @@ function cptui_register_my_cpts() {
     register_post_type( "services", $args );
 
     $labels = array(
-        "name" => "news",
+        "name" => "News",
         "singular_name" => "Article",
         "menu_name" => "News",
         "all_items" => "All News",

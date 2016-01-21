@@ -6,6 +6,7 @@
  *
  */
 
+include_once(dirname(__FILE__) . '/lib/includes/MyFunctions.php');
 include_once(dirname(__FILE__) . '/lib/includes/cpt_acf_definitions.php');
 
 /* --------------------------------------------------------------------- Init */
