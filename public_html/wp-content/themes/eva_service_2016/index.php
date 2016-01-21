@@ -1,4 +1,7 @@
 <?php
+
+$default_img = get_template_directory_uri() . '/img/default-img.jpg';
+
 get_header();
 
 $args = array(
@@ -188,7 +191,7 @@ if ($loop->have_posts()) {
                     ?>
                     <div class="col-xs-12 col-md-4 news-main-block wow fadeInUp" data-wow-delay="<?php echo $time2; ?>s">
                         <a class="news-hover" href="<?php the_permalink() ?>">
-                            <img src="<?php echo $news_img['url']; ?>" alt="" style="width:100%; height:auto;">
+                            <img src="<?php echo !empty($news_img['url']) ? $news_img['url'] : $default_img; ?>" alt="" style="width:100%; height:auto;">
                             <div class="caption-eva" ></div>
                             <span class="overlay"></span>
                             <div class="caption left">
@@ -218,30 +221,6 @@ if ($loop->have_posts()) {
 </div>
 <!--//News End-->
 
-<!--//Articles-->
-<div class="container-fluid bg-dark-grey white text-center">
-    <div class="container">
-        <div class="row-gap-big"></div>
-        <div class="row">
-            <div class="col-md-12">
-                <h4>高度成長を遂げるベトナムでのラボ型開発・BPOの魅力</h4>
-            </div>
-        </div>
-        <div class="row-gap-medium"></div>
-        <div class="row">
-            <div class="col-md-12">
-                <a href="#" class="rounded-btn right-arrow yellow">を遂げるベトナムでのラボ型開発</a>
-            </div>
-        </div>
-        <div class="row-gap-medium"></div>
-        <div class="row">
-            <div class="col-md-12">
-                <a href="#" class="link underline white">を遂げるベトナムでのラボ型開発</a>&nbsp;<i class="icon right-arrow"></i>
-            </div>
-        </div>
-        <div class="row-gap-big"></div>
-    </div>
-</div>
-<!--//Articles End-->
+<?php get_template_part('part-contact'); ?>
 
 <?php get_footer(); ?>
