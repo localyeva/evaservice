@@ -26,7 +26,7 @@ $default_img = get_template_directory_uri() . '/img/default-img.jpg';
                         $all_bg_color = array('pink', 'sky-blue', 'yellow');
                         $bg_color = array();
                         $i = 0;
-                        $terms = get_terms('news-category', 'hide_empty=0');
+                        $terms = get_terms('news-type', 'hide_empty=0');
                         foreach ($terms as $term) {
                             $all_terms[] = $term->name;
                             $bg_color[$i] = $all_bg_color[$i % 3];
@@ -47,7 +47,7 @@ $default_img = get_template_directory_uri() . '/img/default-img.jpg';
                             while ($wp_query->have_posts()) {
                                 $wp_query->the_post();
                                 $postId = get_the_ID();
-                                $terms = get_the_terms($postId, 'news-category');
+                                $terms = get_the_terms($postId, 'news-type');
                                 $categories = array();
                                 if (is_array($terms) && count($terms) > 0) {
                                     foreach ($terms as $term) {

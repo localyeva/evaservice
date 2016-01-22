@@ -324,6 +324,25 @@ function getArchivesByPostType($post_type = 'post', $year = null, $month = null)
     }
 }
 
+function get_taxonomy_info($post_id) {
+    global $evacorp_settings;
+
+    $term = get_the_terms($post_id, 'company-tax');
+    $t_id = $term[0]->term_id;
+    $tax_info = array();
+
+    foreach ($evacorp_settings as $field => $data) {
+        $key = $data['id'];
+        $tax_id = $key . '-' . $t_id;
+        $tax_meta = 'evacorp_' . $tax_id;
+        //
+        $info = get_option($tax_meta);
+        $tax_info[$key] = stripcslashes($info[$tax_id]);
+    }
+
+    return $tax_info['google-map'] ? $tax_info['google-map'] : '';
+}
+
 function onw_header_template(){
 
     global $wp_query;

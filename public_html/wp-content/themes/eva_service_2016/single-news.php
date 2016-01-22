@@ -11,8 +11,8 @@ $post_type = get_post_type_object('news');
 $default_img = get_template_directory_uri() . '/img/default-img.jpg';
 $featured_image = get_field('featured_image');
 
-$prev_post = get_previous_post(false, null, 'news-category');
-$next_post = get_next_post(false, null, 'news-category');
+$prev_post = get_previous_post(false, null, 'news-type');
+$next_post = get_next_post(false, null, 'news-type');
 
 if (!empty($prev_post)) {
     $prev_post_image = get_field('featured_image', $prev_post->ID);
