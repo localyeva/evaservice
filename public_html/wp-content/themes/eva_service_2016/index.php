@@ -157,7 +157,7 @@ if ($loop->have_posts()) {
             <?php
                 $all_bg_color = array('categories-pink', 'categories-blue', 'categories-yellow');
                 $bg_color = array();
-                $terms = get_terms('news-category', 'hide_empty=0');
+                $terms = get_terms('news-type', 'hide_empty=0');
                 $i = 0;
                 foreach ($terms as $term) {
                     $all_terms[] = $term->name;
@@ -180,7 +180,7 @@ if ($loop->have_posts()) {
                     <?php
                         $loop->the_post();
                         $postId = get_the_ID();
-                        $terms = get_the_terms($postId, 'news-category');
+                        $terms = get_the_terms($postId, 'news-type');
                         $news_img = get_field('featured_image');
                         $categories = array();
                         if (is_array($terms) && count($terms) > 0) {
