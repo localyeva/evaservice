@@ -1,0 +1,55 @@
+/* 
+    Created on : Sep 7, 2015, 3:29:09 PM
+    Author     : khangld
+*/
+
+@error-color: #B10016;
+@bg-color: #f2f2f2;
+@border-color: #f2f2f2;
+@page-active-bg: #0090b0;
+@page-active-color: #fff;
+
+.error{
+    color: @error-color;
+}
+
+.popover{
+    &.error-popover{
+        background-color: @bg-color;
+        border-color: @border-color;
+        box-shadow: none;
+        color: @error-color;
+        cursor: pointer;
+        max-width: none;
+        z-index: 9999;
+    }
+    .arrow{
+        display: none;
+    }
+}
+
+input[type=text], input[type=email]{
+    &.error{
+        border: 1px solid @error-color;
+    }
+}
+
+.apply-form-modal .nano{
+    height: 250px;
+}
+.fancybox-inner{
+    overflow-x: hidden !important;
+}
+
+#new-jobs{
+    .pagination{
+        li{
+            &.active{
+                a{
+                    background: @page-active-bg;
+                    color: @page-active-color;
+                }
+            }
+        }
+    }
+}
