@@ -58,15 +58,16 @@ $template_url = get_bloginfo('template_url');
                     <div class="row">
                         <div class="col-md-12 text-center navbar-collapse collapse visible-md">
                             <div class="col-md-4">
-                                <a href="#">
+                                <a href="<?php echo $site_url; ?>">
                                     <img src="<?php echo $template_url; ?>/img/Logo-banner143413.png" class="img-responsive" style="margin-top:10px;" />
                                 </a>
                             </div>
-                            <div class="navbar-collapse collapse col-md-8 pull-right">
+                            <div class="col-md-8 pull-right">
                                 <ul class="nav navbar-nav navbar-right">
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">Working Environment</a></li>
-                                    <li><a href="#">Join Us Now</a></li>
+                                    <li><a href="<?php echo $site_url; ?>/services/">サービス一覧</a></li>
+                                    <li><a href="<?php echo $site_url; ?>/company/">企業情報</a></li>
+                                    <li><a href="<?php echo $site_url; ?>/news/">ニュース</a></li>
+                                    <li><a href="<?php echo $site_url; ?>/contact/">お問い合わせ</a></li>
                                 </ul>
                             </div>
                         </div>
