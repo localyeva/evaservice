@@ -21,7 +21,7 @@ $default_img = get_template_directory_uri() . '/img/default-img.jpg';
     <div class="container center bpo-1">
         <div class="row-gap-medium"></div>
             <div class="content col-md-12">
-                <div class="row masonry">
+                <div class="row grid-news">
                     <?php
                         $all_bg_color = array('pink', 'sky-blue', 'yellow');
                         $bg_color = array();
@@ -56,7 +56,7 @@ $default_img = get_template_directory_uri() . '/img/default-img.jpg';
                                 }
                                 $post_image = get_field('featured_image');
                     ?>
-                    <div class="col-md-4 item">
+                    <div class="col-xs-12 col-sm-6 col-md-4 item">
                         <a href="<?php echo get_permalink(); ?>">
                             <img class="img-responsive" src="<?php echo !empty($post_image['url']) ? $post_image['url'] : $default_img; ?>" alt="<?php the_title(); ?>">
                             <span class="info">

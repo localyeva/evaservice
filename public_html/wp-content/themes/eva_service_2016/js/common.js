@@ -64,9 +64,7 @@ $(document).ready(function () {
 });
 
 $(function () {
-    $('.service-info article.module').heightLine();
-
-    $('p.footer-his').heightLine();
+    $('.grid-news .item').heightLine();
 });
 
 $(function () {

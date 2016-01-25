@@ -534,6 +534,7 @@ h1 {
 }
 .mobie-brand{
     padding-top: 3%;
+    padding-bottom: 3%;
 }
 #responsive-menu-button {
     padding: 0px 0px 6px 0px;
@@ -2330,49 +2331,18 @@ div.box_txt{
 }
 
 /* Masonry container */
-.masonry {
-    column-count: 3;
-    -moz-column-count: 3;
-    -webkit-column-count: 3;
-    -moz-column-gap: 0;
-    -webkit-column-gap: 0;
-    column-gap: 0;
-    /* Masonry bricks or child elements */
+.grid-news {
     .item {
-        background: #fff;
-        display: inline-block;
-        width: 100%;
-        box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        -webkit-box-sizing: border-box;
-    }
-}
-
-@media only screen and (max-width: 1200px) {
-    .masonry {
-        -moz-column-gap: 0;
-        -webkit-column-gap: 0;
-        column-gap: 0;
-    }
-}
-
-@media only screen and (max-width: 990px) {
-    .masonry {
-        column-count: 2;
-        -moz-column-count: 2;
-        -webkit-column-count: 2;
+        /* background: #fff; */
+        /* display: inline-block; */
+        /* width: 100%; */
     }
 }
 
 @media only screen and (max-width: 640px) {
-    .masonry {
-        column-count: 1;
-        -moz-column-count: 1;
-        -webkit-column-count: 1;
-    }
     #news {
         .content {
-            .masonry {
+            .grid-news {
                 .item {
                     > a {
                         > .info {
@@ -2394,7 +2364,7 @@ div.box_txt{
 @media only screen and (max-width: 540px) {
     #news {
         .content {
-            .masonry {
+            .grid-news {
                 .item {
                     > a {
                         > .info {
@@ -2410,7 +2380,7 @@ div.box_txt{
 @media only screen and (max-width: 450px) {
     #news {
         .content {
-            .masonry {
+            .grid-news {
                 .item {
                     > a {
                         > .info {
@@ -2426,7 +2396,7 @@ div.box_txt{
 @media only screen and (max-width: 400px) {
     #news {
         .content {
-            .masonry {
+            .grid-news {
                 .item {
                     > a {
                         > .info {

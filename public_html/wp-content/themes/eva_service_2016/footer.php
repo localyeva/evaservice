@@ -135,7 +135,6 @@ $template_url = get_bloginfo('template_url');
     <script src="<?php echo $template_url; ?>/js/jquery-ui.js"></script>
     <script src="<?php echo $template_url; ?>/js/jquery.heightLine.js"></script>
     <script src="<?php echo $template_url; ?>/js/jquery.sidr.min.js"></script>
-    <script src="<?php echo $template_url; ?>/js/masonry.pkgd.min.js"></script>
     <script src="<?php echo $template_url; ?>/js/wow.js"></script>
     <script src="<?php echo $template_url; ?>/js/parallax/parallax.js"></script>
     <script src="<?php echo $template_url; ?>/js/common.js"></script>
