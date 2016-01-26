@@ -109,11 +109,11 @@ if ($loop->have_posts()) {
             <?php $post_img = get_field('image'); ?>
             <?php if ($i % 2 == 0) { ?>
                 <div class="row bg-light-grey">
-                    <div class="col-xs-12 col-md-6 no-padding-lr sv-main-block wow fadeInLeft">
+                    <div class="col-xs-12 col-md-6 no-padding-lr sv-main-block service-block wow fadeInLeft">
                         <img src="<?php echo $post_img['url']; ?>" alt="" class="img-responsive full-width" />
                     </div>
-                    <div class="col-xs-12 col-md-6 wow fadeInRight">
-                        <div class="col-lg-9 col-md-12 col-xs-12">
+                    <div class="col-xs-12 col-md-6 service-block wow fadeInRight">
+                        <div class="col-md-12 col-xs-12">
                             <div class="row-gap-medium"></div>
                             <h3 class="fw400"><?php the_title(); ?></h3>
                             <div class="row-gap-medium"></div>
@@ -126,8 +126,8 @@ if ($loop->have_posts()) {
                 </div>
                 <?php } else { ?>
                 <div class="row bg-light-grey">
-                    <div class="col-xs-12 col-md-6 wow fadeInLeft">
-                        <div class="col-lg-9 col-md-12 col-xs-12">
+                    <div class="col-xs-12 col-md-6 service-block wow fadeInLeft">
+                        <div class="col-md-12 col-xs-12">
                             <div class="row-gap-medium"></div>
                             <h3 class="fw400"><?php the_title(); ?></h3>
                             <div class="row-gap-medium"></div>
@@ -137,7 +137,7 @@ if ($loop->have_posts()) {
                             <div class="row-gap-medium"></div>
                         </div>
                     </div>
-                    <div class="col-xs-12 col-md-6 no-padding-lr sv-main-block wow fadeInRight">
+                    <div class="col-xs-12 col-md-6 service-block no-padding-lr sv-main-block wow fadeInRight">
                         <img src="<?php echo $post_img['url']; ?>" alt="" class="img-responsive full-width" />
                     </div>
                 </div>
