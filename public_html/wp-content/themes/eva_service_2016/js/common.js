@@ -103,6 +103,8 @@ $(function () {
     });
 
     setBanerHeight();
+
+    $('#big-video').parallax();
 });
 
 /* fix top menu */

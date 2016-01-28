@@ -23,39 +23,11 @@ if ($loop->have_posts()) {
     }
 }
 ?>
-<!--//slide-->
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-        <?php for ($i = 0; $i < count($home_slider); $i++): ?>
-            <li data-target="#myCarousel" data-slide-to="<?php echo $i ?>" class="<?php echo ($i == 0) ? 'active' : '' ?>"></li>
-        <?php endfor; ?>
-    </ol>
 
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner" role="listbox">
-        <?php for ($i = 0; $i < count($home_slider); $i++): ?>
-            <div class="item <?php echo ($i == 0) ? 'active' : '' ?>">
-                <div class="parallax-window" data-parallax="scroll" data-image-src="<?php echo $home_slider[$i]['image']['url'] ?>"></div>
-            </div>
-        <?php endfor; ?>
-    </div>
-
-    <!-- Left and right controls -->
-    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-    </a>
-    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a>
-
-    <div class="carousel-caption">
-        <h2>海外開発拠点が御社の成長を加速させる</h2>
-    </div>
-</div>
-<!--//slide End-->
+<video autoplay="" loop="" poster="http://evarecruit.localhost/wp-content/uploads/2015/08/cover.png" id="bgvid">
+    <source src="http://evarecruit.localhost/wp-content/uploads/2015/08/cover.webm" type="video/webm">
+    <source src="http://evarecruit.localhost/wp-content/uploads/2015/08/cover.mp4" type="video/mp4">
+</video>
 
 <!--//Why-->
 <div class="container-fluid header-why">
