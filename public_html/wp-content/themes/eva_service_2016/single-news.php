@@ -25,7 +25,7 @@ if (!empty($next_post)) {
 ?>
 <div id="news">
     <div class="container-fluid">
-        <div class="head-banner-wrap yellow row">
+        <div class="head-banner-wrap no-background row">
             <h2><?php echo $post_type->label; ?></h2>
         </div>
     </div>

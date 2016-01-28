@@ -10,7 +10,7 @@ $default_img = get_template_directory_uri() . '/img/default-img.jpg';
 ?>
 <div id="news">
     <div class="container-fluid">
-        <div class="head-banner-wrap yellow row">
+        <div class="head-banner-wrap no-background row">
             <h2><?php echo $post_type->label; ?></h2>
         </div>
     </div>

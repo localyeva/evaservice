@@ -104,6 +104,13 @@ input::-moz-focus-inner {
     position: relative;
     box-shadow: 0 0 0 rgba(0, 0, 0, 0);
     height: 163px;
+    &.no-background {
+        background: none;
+        height: 60px;
+        h2 {
+            color: #000000;
+        }
+    }
     &.blue{
         background: url("../img/banner-blue.png") center;
         background-size: cover;
