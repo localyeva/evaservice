@@ -9,7 +9,7 @@ $post_type = get_post_type_object('company');
 ?>
 <div id="company-profile">
     <div class="container-fluid">
-        <div class="head-banner-wrap blue row">
+        <div class="head-banner-wrap no-background row">
             <h2><?php echo $post_type->label; ?></h2>
         </div>
     </div>
