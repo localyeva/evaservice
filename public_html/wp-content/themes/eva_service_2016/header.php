@@ -59,7 +59,7 @@ $template_url = get_bloginfo('template_url');
                         <div class="col-md-12 text-center navbar-collapse collapse visible-md">
                             <div class="col-md-4">
                                 <a href="<?php echo $site_url; ?>">
-                                    <img src="<?php echo $template_url; ?>/img/Logo-banner143413.png" class="img-responsive" style="margin-top:10px;" />
+                                    <img src="<?php echo $template_url; ?>/img/SBC-Logo-Final.png" class="img-responsive" style="margin-top:10px;" />
                                 </a>
                             </div>
                             <div class="col-md-8 pull-right">

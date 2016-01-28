@@ -34,20 +34,17 @@ if ($loop->have_posts()) {
     <div class="row">
         <div class="container">
             <div class="col-md-7 why-text-right">
-                <h2>EVA Solution and Business Consultancy</h2>
-                <h3>私たちは経験豊富なエンジニアの採用に自信があります。<br/>御社の開発チームを迅速に構築します。</h3>
+                <h2>EVOLABLE ASIA Solution & Business Consultancyは、</h2>
+                <h3>クライアントの真のパートナーを目指します。</h3>
                 <div class="row-gap-small"></div>
-                <div class="text-small">2012年の設立以降、今では東南アジア地域で日系最大規模のラボ型オフショア開発企業としてさらに成長を続けるEvolable Asia。その成長の背景には、「高品質な人材の提供」と「安心のサポートシステム」があります。Evolable Asiaでは質が高く幅広い技術者を豊富に確保し、最適な環境で終業してもらえるノウハウと実績を持っています。また日本人ラボマネージャーが常駐し、初めてベトナム進出する企業も、より安心して業務をスタートできるようなサポートシステムが整っています。詳しくはこちらのページをご覧ください。
-                </div>
-                <div class="">
-                    <a href="http://evaservice.localhost/company/reason/" class="btn btn-slim">
-                        <i class="fa fa-angle-right"></i>エボラブルアジアが選ばれる理由
-                    </a>
+                <div class="text-small">東南アジア地域で日系最大規模のラボ型開発企業であるEVOLABLE ASIAの100%子会社として設立。
+<br>２０１２年３月の設立から３年間で５００名体制まで拡大している同社のノウハウを受け継ぐことで、幅広い領域に対応できるのが私たちの強みです。クライアントのコミュニケーションをなによりも大切にし、課題の発見から解決までワンストップでサービスをご提供します。
+
                 </div>
             </div>
             <div class="col-md-5 why-text-left text-left">
-                <div class="row-gap-big"></div>
-                <img src="http://evaservice.localhost/wp-content/uploads/2016/01/koppos32a6ml.jpg" alt="" class="img-responsive" />
+                
+                <img src="http://services.evolable.asia/wp-content/uploads/2016/01/5d2efd93-1630-4d49-bcdf-274616e99d99.png" alt="" class="img-responsive" />
             </div>
         </div>
     </div>
