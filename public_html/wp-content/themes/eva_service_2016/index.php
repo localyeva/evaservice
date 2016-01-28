@@ -24,9 +24,9 @@ if ($loop->have_posts()) {
 }
 ?>
 
-<video autoplay="" loop="" poster="http://evarecruit.localhost/wp-content/uploads/2015/08/cover.png" id="bgvid">
-    <source src="http://evarecruit.localhost/wp-content/uploads/2015/08/cover.webm" type="video/webm">
-    <source src="http://evarecruit.localhost/wp-content/uploads/2015/08/cover.mp4" type="video/mp4">
+<video autoplay="" loop="" poster="<?php echo get_part_work_environment_movie_cover() ?>" id="bgvid">
+    <source src="<?php echo get_part_work_environment_movie_webm() ?>" type="video/webm">
+    <source src="<?php echo get_part_work_environment_movie_mp4() ?>" type="video/mp4">
 </video>
 
 <!--//Why-->
