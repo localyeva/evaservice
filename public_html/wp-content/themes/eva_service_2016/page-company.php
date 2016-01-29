@@ -8,14 +8,14 @@ get_header();
 $post_type = get_post_type_object('company');
 ?>
 <div id="company-profile">
+    <div class="container-fluid bg-silver">
+        <?php custom_breadcrumbs('company'); ?>
+    </div>
+    <div class="row-gap-medium"></div>
     <div class="container-fluid">
         <div class="head-banner-wrap no-background row">
             <h2><?php echo $post_type->label; ?></h2>
         </div>
-    </div>
-    <div class="row-gap-medium"></div>
-    <div class="container-fluid bg-silver">
-        <?php custom_breadcrumbs('company'); ?>
     </div>
     <div class="container-fluid text-center" id="detail-contact">
         <div class="container detail">

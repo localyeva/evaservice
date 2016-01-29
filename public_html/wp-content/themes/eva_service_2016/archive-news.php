@@ -9,15 +9,15 @@ $post_type = get_post_type_object('news');
 $default_img = get_template_directory_uri() . '/img/default-img.jpg';
 ?>
 <div id="news">
+    <div class="container-fluid bg-silver">
+        <?php custom_breadcrumbs('news'); ?>
+    </div>
     <div class="container-fluid">
         <div class="head-banner-wrap no-background row">
             <h2><?php echo $post_type->label; ?></h2>
         </div>
     </div>
     <div class="row-gap-medium"></div>
-    <div class="container-fluid bg-silver">
-        <?php custom_breadcrumbs('news'); ?>
-    </div>
     <div class="container center bpo-1">
         <div class="row-gap-medium"></div>
             <div class="content col-md-12">

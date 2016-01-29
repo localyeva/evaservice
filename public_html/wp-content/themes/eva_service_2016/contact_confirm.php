@@ -120,17 +120,14 @@ get_header();
 ?>
 
 <section>
-    <div class="row-gap-medium"></div>
-    <div class="head-banner-wrap no-background">
-        <h2>ご入力内容の確認</h2>
-    </div>
-
-    <div class="row-gap-medium"></div>
     <div class="container-fluid bg-silver">
         <?php custom_breadcrumbs('contact'); ?>
     </div>
     <div class="row-gap-medium"></div>
-
+    <div class="head-banner-wrap no-background">
+        <h2>ご入力内容の確認</h2>
+    </div>
+    <div class="row-gap-medium"></div>
     <div class="container contact">
         <div class="row" style="max-width:800px;margin:auto;">
             <p class="eva-info">

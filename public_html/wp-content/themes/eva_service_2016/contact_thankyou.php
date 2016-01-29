@@ -9,16 +9,14 @@ get_header();
 ?>
 
 <section>
+    <div class="container-fluid bg-silver">
+        <?php custom_breadcrumbs('contact'); ?>
+    </div>
     <div class="row-gap-medium"></div>
     <div class="head-banner-wrap no-background">
                 <h2>お問い合わせ</h2>
     </div>
     <div class="row-gap-medium"></div>
-    <div class="container-fluid bg-silver">
-        <?php custom_breadcrumbs('contact'); ?>
-    </div>
-    <div class="row-gap-medium"></div>
-
     <div class="container contact">
        <div class="row" style="max-width:800px;margin:auto;">
         <p class="t20b20 taC fwB fz16"> お問い合わせありがとうございます。 </p>

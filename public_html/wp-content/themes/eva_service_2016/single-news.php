@@ -24,14 +24,14 @@ if (!empty($next_post)) {
 
 ?>
 <div id="news">
+    <div class="container-fluid bg-silver">
+        <?php custom_breadcrumbs('news'); ?>
+    </div>
+    <div class="row-gap-medium"></div>
     <div class="container-fluid">
         <div class="head-banner-wrap no-background row">
             <h2><?php echo $post_type->label; ?></h2>
         </div>
-    </div>
-    <div class="row-gap-medium"></div>
-    <div class="container-fluid bg-silver">
-        <?php custom_breadcrumbs('news'); ?>
     </div>
     <div class="row-gap-medium"></div>
     <div class="container center bpo-1 contact-width">

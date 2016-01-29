@@ -41,17 +41,14 @@ get_header();
 ?>
 
 <section>
-    <div class="row-gap-medium"></div>
-    <div class="head-banner-wrap no-background">
-                <h2>お問い合わせ</h2>
-    </div>
-
-    <div class="row-gap-medium"></div>
     <div class="container-fluid bg-silver">
         <?php custom_breadcrumbs('contact'); ?>
     </div>
     <div class="row-gap-medium"></div>
-
+    <div class="head-banner-wrap no-background">
+        <h2>お問い合わせ</h2>
+    </div>
+    <div class="row-gap-medium"></div>
     <div class="container contact">
         <form id="contact-form" name="contact" class="form-horizontal" method="post"  action="<?php bloginfo('url') ?>/contact/confirm/" novalidate="novalidate">
             <h3 class="title">下記に必要事項をご記入の上、お問い合わせください。</h3>
