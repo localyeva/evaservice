@@ -42,6 +42,18 @@ function theme_customize_register($wp_customize) {
         'priority' => 1,
         'mime_type' => 'video',
     )));
+
+    $wp_customize->add_setting('part_work_environment_intro_text', array(
+        'default' => '',
+    ));
+
+    $wp_customize->add_control('part_work_environment_intro_text', array(
+        'label'   => __('Text in front of video here'),
+        'section' => 'home',
+        'settings' => 'part_work_environment_intro_text',
+        'type'    => 'textarea',
+        'priority' => 1,
+    ));
 }
 
 add_action('customize_register', 'theme_customize_register');
@@ -58,4 +70,9 @@ function get_part_work_environment_movie_mp4() {
 function get_part_work_environment_movie_webm() {
     $id = get_theme_mod('part_work_environment_movie_webm');
     return wp_get_attachment_url($id);
+}
+
+function get_part_work_environment_intro_text() {
+    $text = get_theme_mod('part_work_environment_intro_text');
+    return $text;
 }
