@@ -3,31 +3,15 @@
 $default_img = get_template_directory_uri() . '/img/default-img.jpg';
 
 get_header();
-
-$args = array(
-    'post_type' => 'home-slider',
-    'posts_per_page' => 1,
-    'orderby' => array('date' => 'DESC'),
-);
-
-$loop = new WP_Query($args);
-$home_slider = array();
-
-if ($loop->have_posts()) {
-    while ($loop->have_posts()) {
-        $loop->the_post();
-        while (have_rows('images')) {
-            the_row();
-            $home_slider[]['image'] = get_sub_field('image');
-        }
-    }
-}
 ?>
 
-<video autoplay="" loop="" poster="<?php echo get_part_work_environment_movie_cover() ?>" id="bgvid">
-    <source src="<?php echo get_part_work_environment_movie_webm() ?>" type="video/webm">
-    <source src="<?php echo get_part_work_environment_movie_mp4() ?>" type="video/mp4">
-</video>
+<div class="intro">
+    <h2><?php echo get_part_work_environment_intro_text(); ?></h2>
+    <video autoplay="" loop="" poster="<?php echo get_part_work_environment_movie_cover() ?>" id="bgvid">
+        <source src="<?php echo get_part_work_environment_movie_webm() ?>" type="video/webm">
+        <source src="<?php echo get_part_work_environment_movie_mp4() ?>" type="video/mp4">
+    </video>
+</div>
 
 <!--//Why-->
 <div class="container-fluid header-why">
@@ -43,7 +27,7 @@ if ($loop->have_posts()) {
                 </div>
             </div>
             <div class="col-md-5 why-text-left text-left">
-                
+
                 <img src="http://services.evolable.asia/wp-content/uploads/2016/01/5d2efd93-1630-4d49-bcdf-274616e99d99.png" alt="" class="img-responsive" />
             </div>
         </div>
