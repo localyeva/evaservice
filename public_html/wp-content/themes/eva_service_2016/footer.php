@@ -81,50 +81,10 @@ $template_url = get_bloginfo('template_url');
                     </div>
                 </div>
 
-                <div class="col-xs-12 col-md-6 hidden-xs">
-                    <div class="row">
-                        <div class="col-xs-4 col-md-4">
-                            <label>HOME</label>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p class="small"><a class="alnk" href="<?php echo $site_url; ?>/company/reason/">選ばれる理由</a></p>
-                                    <p class="small"><a class="alnk" data-goto="header-service" href="<?php echo $site_url; ?>/service">サービス</a></p>
-                                    <p class="small"><a class="alnk" href="<?php echo $site_url; ?>/service/about_labo"><i class="fa fa-angle-right"></i> Offshore Development</a></p>
-                                    <p class="small"><a class="alnk" href="<?php echo $site_url; ?>/service/about_bpo"><i class="fa fa-angle-right"></i> BPO</a></p>
-                                    <p class="small"><a class="alnk" href="<?php echo $site_url; ?>/service/game-secondary-plan"><i class="fa fa-angle-right"></i> Game secondary plan</a></p>
-                                    <p class="small"><a class="alnk" href="<?php echo $site_url; ?>/service/bpo-real-estate"><i class="fa fa-angle-right"></i> BPO for real estate</a></p>
-                                    <p class="small"><a class="alnk" href=""><i class="fa fa-angle-right"></i> Coming soon&#8230;</a></p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xs-4 col-md-4">
-                            <label>About EvolableAsia</label>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p class="small"><a class="alnk" href="<?php echo $site_url; ?>/service/vietnam"><i class="fa fa-angle-right"></i> Why is it Viet Nam?</a></p>
-                                    <p class="small"><a class="alnk" href="<?php echo $site_url; ?>/faq"><i class="fa fa-angle-right"></i> FAQ</a></p>
-                                    <p class="small"><a class="alnk" href="<?php echo $site_url; ?>/recomend"><i class="fa fa-angle-right"></i> Recommendation</a></p>
-                                    <p class="small"><a class="alnk" href="<?php echo $site_url; ?>/company/circle"><i class="fa fa-angle-right"></i> Activities</a></p>
-                                    <p class="small"><a class="alnk" href="<?php echo $site_url; ?>/company/history"><i class="fa fa-angle-right"></i> History</a></p>
-                                    <p class="small"><a class="alnk" href="<?php echo $site_url; ?>/company/staff"><i class="fa fa-angle-right"></i> Staff</a></p>
-                                    <p class="small"><a class="alnk" href="<?php echo $site_url; ?>/company/profile"><i class="fa fa-angle-right"></i> Company</a></p>
-                                    <p class="small"><a class="alnk" href="<?php echo $site_url; ?>/company/greeting/"><i class="fa fa-angle-right"></i> CEO</a></p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-xs-4 col-md-4">
-                            <label>ニュース</label>
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <p class="small">Recruit</p>
-                                    <p class="small"><a class="alnk" href="http://jobs.evolable.asia"><i class="fa fa-angle-right"></i> Vietnamese</a></p>
-                                    <p class="small"><a class="alnk" href="<?php echo $site_url; ?>/recruit_ja"><i class="fa fa-angle-right"></i> Japanese</a></p>
-                                </div>
-                            </div>
-                            <label><a class="alnk" href="<?php echo $site_url; ?>/contact">お問い合わせ</a></label>
-                        </div>
+                <div class="col-xs-12 col-md-6">
+                    <div class="facebook">
+                        <div id="fb-root"></div>
+                        <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fevolable.asia.eva%3Ffref%3Dts&amp;width=500px&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=true&amp;appId=445550542212549" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:100%; height:290px;" allowTransparency="true"></iframe>
                     </div>
                 </div>
             </div>
