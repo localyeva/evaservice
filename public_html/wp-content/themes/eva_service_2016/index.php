@@ -28,7 +28,7 @@ get_header();
             </div>
             <div class="col-md-5 why-text-left text-left">
 
-                <img src="http://services.evolable.asia/wp-content/uploads/2016/01/5d2efd93-1630-4d49-bcdf-274616e99d99.png" alt="" class="img-responsive" />
+                <img src="http://services.evolable.asia/wp-content/uploads/2016/02/fffffdf.png" alt="" class="img-responsive" />
             </div>
         </div>
     </div>

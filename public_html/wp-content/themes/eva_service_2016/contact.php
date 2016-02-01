@@ -17,11 +17,9 @@ $reg_content = @$_SESSION['contact']['reg_content'];
 
 $arr_itemSelect = array(
     '▼下記からお選びください',
-    'ベトナムでラボ型オフショア開発を検討している',
-    'ベトナムでBPOを検討している',
-    'ベトナムのITビジネス事情を視察したいと思っている',
-    'ベトナムを活用してコストダウンする提案をしてほしい',
-    '採用に関するお問い合わせ',
+    'web制作',
+    'デザイン制作',
+    '動画制作',
     'その他',
 );
 
@@ -46,7 +44,7 @@ get_header();
     </div>
     <div class="row-gap-medium"></div>
     <div class="head-banner-wrap no-background">
-        <h2>お問い合わせ</h2>
+        <h2>Contact</h2>
     </div>
     <div class="row-gap-medium"></div>
     <div class="container contact">
@@ -83,6 +81,7 @@ get_header();
                     <input type="text" id="contact-tel" name="reg_tel" class="form-control" placeholder="" value="<?php echo $reg_tel ?>" />
                 </div>
             </div>
+<!-----------------------------------------------------------------------------------------------------------------------
             <div class="form-group">
                 <label for="contact-tel" class="col-sm-3 control-label control-label-left">どこでエボラブルアジアを知りましたか?</label>
                 <div class="col-sm-9">
@@ -120,6 +119,7 @@ get_header();
                     </div>
                 </div>
             </div>
+--------------------------------------------------------------------------------------------------------------------->
             <div class="form-group">
                 <label for="contact-item" class="col-sm-3 control-label control-label-left">お問い合わせ項目<span class="red">※</span></label>
                 <div class="col-sm-9">
@@ -134,13 +134,13 @@ get_header();
                     <textarea id="contact-content" name="reg_content" class="form-control" rows="10"><?php echo $reg_content ?></textarea>
                 </div>
             </div>
-            -->
+            
             <div class="col-sm-12 privacy">
                 <div class="box">
                     <strong>【個人情報の取り扱いについて】</strong>
                     <ul>
                         <li>
-                            <strong>EVOLABLE ASIA CO., Ltd</strong>（以下「当社」）は、以下のとおり個人情報保護方針を定め、個人情報保護の仕組みを構築し、全従業員に個人情報保護の重要性の認識と取組みを徹底させることにより、個人情報の保護を推進致します。
+                            <strong>EVOLABLE ASIA SOLUTION & BUSINESS CONSULTANCY COMPANY LIMITED</strong>（以下「当社」）は、以下のとおり個人情報保護方針を定め、個人情報保護の仕組みを構築し、全従業員に個人情報保護の重要性の認識と取組みを徹底させることにより、個人情報の保護を推進致します。
                         </li>
                         <li>
                             <strong>個人情報の管理</strong><br>
@@ -165,7 +165,7 @@ get_header();
                                 当社は、保有する個人情報に関して適用される日本の法令、その他規範を遵守するとともに、本ポリシーの内容を適宜見直し、その改善に努めます。</p>
                             <p><strong>お問い合せ</strong><br>
                                 当社の個人情報の取扱に関するお問い合せは下記までご連絡ください。<br>
-                                EVOLABLE ASIA Co.,Ltd <br>
+                                EVOLABLE ASIA SOLUTION & BUSINESS CONSULTANCY COMPANY LIMITED <br>
                                 4rd Fl, SaiGon Financial Center<br>
                                 No. 9 Dinh Tien Hoang, District 1, HCMC<br>
                                 Tel: 08-39111489 Fax: 08-39118767<br>

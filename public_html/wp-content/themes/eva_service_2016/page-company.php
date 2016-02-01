@@ -14,12 +14,12 @@ $post_type = get_post_type_object('company');
     <div class="row-gap-medium"></div>
     <div class="container-fluid">
         <div class="head-banner-wrap no-background row">
-            <h2><?php echo $post_type->label; ?></h2>
+            <h2>Company</h2>
         </div>
     </div>
     <div class="container-fluid text-center" id="detail-contact">
         <div class="container detail">
-            <h1>会社概要</h1>
+            <h1>Company Profile</h1>
             <div class="row" style="max-width:800px;margin:auto;">
                 <div class="col-xs-12 infos no-padding-lr">
                     <?php
@@ -110,7 +110,7 @@ $post_type = get_post_type_object('company');
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <h1>関連会社</h1>
+                    <h1>Affiliated Company</h1>
                 </div>
             </div>
             <div class="row">
@@ -138,7 +138,7 @@ $post_type = get_post_type_object('company');
 
     <div class="container-fluid text-center">
         <div class="container">
-            <h1>オフィス紹介</h1>
+            <h1>Office</h1>
             <div class="row center-block" style="max-width:700px;margin:auto;background:#f5f5f5;border:solid 1px #ccc;padding:15px 0px 15px 40px;">
                 <?php
                 $maps = array();

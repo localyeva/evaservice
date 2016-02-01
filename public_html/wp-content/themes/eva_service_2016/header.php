@@ -64,9 +64,9 @@ $template_url = get_bloginfo('template_url');
                             </div>
                             <div class="col-md-8 pull-right">
                                 <ul class="nav navbar-nav navbar-right">
-<!------------------------------------------
+
                                     <li><a href="<?php echo $site_url; ?>/services/">SERVICE</a></li>
--------------------------------------------->
+
                                     <li><a href="<?php echo $site_url; ?>/company/">COMPANY</a></li>
                                     <li><a href="<?php echo $site_url; ?>/news/">NEWS</a></li>
                                     <li><a href="<?php echo $site_url; ?>/contact/">CONTACT</a></li>
