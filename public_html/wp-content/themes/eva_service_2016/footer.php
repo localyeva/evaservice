@@ -36,11 +36,9 @@ $template_url = get_bloginfo('template_url');
                             <ul class="nav navbar-nav">
                                 <li><a href="<?php echo $site_url; ?>">Home <span class="glyphicon glyphicon-menu-right right-icon" aria-hidden="true"></span></a></li>
                                 <li><a href="<?php echo $site_url; ?>/company">About EvolableAsia <span class="glyphicon glyphicon-menu-right right-icon" aria-hidden="true"></span></a></li>
-                                <li><a href="<?php echo $site_url; ?>/company/reason">選ばれる理由<span class="glyphicon glyphicon-menu-right right-icon" aria-hidden="true"></span></a></li>
-                                <li><a href="<?php echo $site_url; ?>/service">サービス <span class="glyphicon glyphicon-menu-right right-icon" aria-hidden="true"></span></a></li>
-                                <li><a href="<?php echo $site_url; ?>/news">ニュース <span class="glyphicon glyphicon-menu-right right-icon" aria-hidden="true"></span></a></li>
-                                <li><a href="<?php echo $site_url; ?>/recruit_ja">Recruit <span class="glyphicon glyphicon-menu-right right-icon" aria-hidden="true"></span></a></li>
-                                <li><a href="<?php echo $site_url; ?>/contact/" class="active">お問い合わせ <span class="glyphicon glyphicon-menu-right right-icon" aria-hidden="true"></span></a></li>
+                                <li><a href="#">選ばれる理由<span class="glyphicon glyphicon-menu-right right-icon" aria-hidden="true"></span></a></li>
+                                <li><a href="#">サービス <span class="glyphicon glyphicon-menu-right right-icon" aria-hidden="true"></span></a></li>
+                                <li><a href="#">ニュース <span class="glyphicon glyphicon-menu-right right-icon" aria-hidden="true"></span></a></li>
                             </ul>
                         </div>
                         <div class="col-xs-4 col-md-4 hidden-xs">
