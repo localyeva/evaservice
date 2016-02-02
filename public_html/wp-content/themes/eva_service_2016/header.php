@@ -65,7 +65,7 @@ $template_url = get_bloginfo('template_url');
                             <div class="col-md-8 pull-right">
                                 <ul class="nav navbar-nav navbar-right">
 
-                                    <li><a href="<?php echo $site_url; ?>/services/">SERVICE</a></li>
+                                    <li><a href="<?php echo $site_url; ?>/services/">SERVICES</a></li>
 
                                     <li><a href="<?php echo $site_url; ?>/company/">COMPANY</a></li>
                                     <li><a href="<?php echo $site_url; ?>/news/">NEWS</a></li>
@@ -90,11 +90,11 @@ $template_url = get_bloginfo('template_url');
                             <div class="row mobile-menu" id="sidr">
                                 <div class="col-xs-12">
                                     <ul class="nav navbar-nav">
-                                        <li><a href="#">Home</a></li>
-                                        <li><a href="#">About EvolableAsia</a></li>
-                                        <li><a href="#">選ばれる理由</a></li>
-                                        <li><a href="#">サービス</a></li>
-                                        <li><a href="#">ニュース</a></li>
+                                        <li><a href="#">HOME</a></li>
+                                        <li><a href="<?php echo $site_url; ?>/company/">COMPANY</a></li>
+                                        <li><a href="<?php echo $site_url; ?>/services/">SERVICES</a></li>
+                                        <li><a href="<?php echo $site_url; ?>/news/">NEWS</a></li>
+                                        <li><a href="<?php echo $site_url; ?>/contact/">CONTACT</a></li>
                                     </ul>
                                 </div>
                             </div>

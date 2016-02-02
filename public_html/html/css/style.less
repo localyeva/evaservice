@@ -64,7 +64,15 @@
                 }
                 .mess-text{
                     white-space: normal !important;
-                    font-size: 12px !important;
+                    font-size: 1.3em !important;
+                    span{
+                        &::after{
+                            font-family: 'Glyphicons Halflings';
+                            font-weight: normal;
+                            content: "\e080";
+                            padding-left: 30px;
+                        }
+                    }
                 }
             }
         }
@@ -293,7 +301,7 @@
                 }
                 .mess-text{
                     white-space: normal !important;
-                    font-size: 12px !important;
+                    font-size: 1em !important;
                 }
             }
         }
@@ -889,7 +897,6 @@ h1 {
 .header-contact{
     background-color: #414141;
     .contact-info{
-        padding-top: 70px;
         font-size: @title-font-size;
         font-weight: bold;
         .yellow{
@@ -918,7 +925,6 @@ h1 {
     padding-right: 0px;
     .footer-contact{
         margin-bottom: 50px;
-        background-color: white;
         padding: 20px 0 20px 0;
         .phone{
             position: relative;
@@ -926,7 +932,7 @@ h1 {
                 display: inline-block;
                 font-size: 33px;
                 font-weight: 500;
-                color: #E11B73;
+                color: #1a96ff;
                 white-space: nowrap;
             }
             .phone-img{
@@ -937,11 +943,13 @@ h1 {
                 padding-top: 10px;
                 padding-left: 10px;
                 font-size: 18px;
+                color: #ffffff;
             }
             .detail-text{
                 top: 60%;
                 font-size: 18px;
                 padding-left: 10px;
+                color: #ffffff;
             }
             .detail-line{
                 height: 132px;
@@ -964,18 +972,19 @@ h1 {
                 margin-top: 7%;
                 //transform: translate(0, -50%);
                 display: inline-block;
-                font-size: 22px;
-                color: #000000;
+                font-size: 1.5em;
+                font-weight: bold;
+                color: #333333;
                 background-color: #fef53c;
-                border-style: solid;
-                border-width: 2px;
-                border-color: #000000;
-                padding: 10px 20px;
+                border-radius: 8px;
+                padding: 15px 10px 15px 50px;
                 margin: 25px auto;
                 span{
                     &::after{
-                        content: ">";
-                        padding-left: 5px;
+                        font-family: 'Glyphicons Halflings';
+                        font-weight: normal;
+                        content: "\e080";
+                        padding-left: 30px;
                     }
                 }
             }
