@@ -65,7 +65,7 @@ $template_url = get_bloginfo('template_url');
                             <div class="col-md-8 pull-right">
                                 <ul class="nav navbar-nav navbar-right">
 
-                                    <li><a href="<?php echo $site_url; ?>/services/">SERVICES</a></li>
+                                    <li><a href="<?php echo $site_url; ?>/services/">SERVICE</a></li>
 
                                     <li><a href="<?php echo $site_url; ?>/company/">COMPANY</a></li>
                                     <li><a href="<?php echo $site_url; ?>/news/">NEWS</a></li>
@@ -90,9 +90,9 @@ $template_url = get_bloginfo('template_url');
                             <div class="row mobile-menu" id="sidr">
                                 <div class="col-xs-12">
                                     <ul class="nav navbar-nav">
-                                        <li><a href="#">HOME</a></li>
+                                        <li><a href="<?php echo $site_url; ?>">HOME</a></li>
                                         <li><a href="<?php echo $site_url; ?>/company/">COMPANY</a></li>
-                                        <li><a href="<?php echo $site_url; ?>/services/">SERVICES</a></li>
+                                        <li><a href="<?php echo $site_url; ?>/services/">SERVICE</a></li>
                                         <li><a href="<?php echo $site_url; ?>/news/">NEWS</a></li>
                                         <li><a href="<?php echo $site_url; ?>/contact/">CONTACT</a></li>
                                     </ul>
