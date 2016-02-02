@@ -35,7 +35,8 @@
     .header-contact{
         .contact-info{
             font-size: 15px !important;
-            padding-top: 30px !important;
+            padding-top: 0px !important;
+            padding-bottom: 30px !important;
         }
         .con-contact{
             width: 600px;
@@ -67,6 +68,13 @@
                 }
             }
         }
+    }
+}
+
+.menu-footer-mobi {
+    > .navbar-nav {
+        margin-left: 0px;
+        margin-right: 0px;
     }
 }
 
@@ -254,10 +262,10 @@
         }
     }
     .header-contact{
-        padding-bottom: 15px !important;
         .contact-info{
             font-size: 13px !important;
-            padding-top: 30px !important;
+            padding-top: 0px !important;
+            padding-bottom: 30px !important;
         }
         .con-contact{
             width: 330px !important;
@@ -779,6 +787,8 @@ h1 {
     background: #1E1E1E;
     padding-top: 20px;
     padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
     color: #fff;
     .page-top{
         padding-bottom:40px;
@@ -877,7 +887,7 @@ h1 {
 }
 
 .header-contact{
-    background: url('../img/4-grid.png') repeat;
+    background-color: #414141;
     .contact-info{
         padding-top: 70px;
         font-size: @title-font-size;
@@ -898,10 +908,14 @@ h1 {
             background-image: -ms-linear-gradient(bottom, rgb(173, 236, 0) 20%, rgba(0,0,0,0) 0%);
             background-position-y: 36px;
         }
+        p {
+            color: #ffffff;
+        }
     }
 }
 .header-contact{
-    padding-bottom: 35px;
+    padding-left: 0px;
+    padding-right: 0px;
     .footer-contact{
         margin-bottom: 50px;
         background-color: white;
@@ -935,7 +949,7 @@ h1 {
                 border-right-style: solid;
                 border-color: #E6E6E6;
                 position: absolute;
-                top: 0%;
+                top: -12px;
                 right: 0%;
                 z-index: 999;
             }
@@ -2377,6 +2391,12 @@ div.box_txt{
     }
 }
 
+.caption {
+    .yellow {
+        font-size: 1.5em !important;
+    }
+}
+
 @media only screen and (max-width: 640px) {
     .intro {
         h2 {
@@ -2439,6 +2459,11 @@ div.box_txt{
     }
     .medium-btn {
         font-size: 1.2em !important;
+    }
+    .caption {
+        .yellow {
+            font-size: 1.1em !important;
+        }
     }
 }
 
