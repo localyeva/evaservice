@@ -80,7 +80,7 @@ if (isset($_POST['submit'])) {
     if (isset($body_client) && $body_client != '') {
         $body_client = $twig->render($body_client, $data);
         $subject_client = $twig->render(omw_get_option('wpt_omw_text_subject_client'), $data);
-        $headers = 'From: ' . $fromname . ' <' . $from . '>' . '\r\n';
+        $headers = 'From: ' . $fromname . ' <' . $from . '>';
         //
         wp_mail($data['email'], stripslashes($subject_client), stripslashes($body_client), $headers);
     }
@@ -101,7 +101,7 @@ if (isset($_POST['submit'])) {
         if (isset($list_email) && $list_email != '') {
             $list_email = preg_split('/\r\n|\n|\r/', $list_email);
             //
-            $headers = 'From: ' . $fromname . ' <' . $from . '>' . '\r\n';
+            $headers = 'From: ' . $fromname . ' <' . $from . '>';
             //
             wp_mail($list_email, stripslashes($subject_admin), stripslashes($body_admin), $headers);
         }
