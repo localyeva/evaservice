@@ -8,18 +8,11 @@ get_header();
 
 $post_type = get_post_type_object('services');
 
-$default_img = get_template_directory_uri() . '/img/default-img.jpg';
-$featured_image = get_field('featured_image');
-
-$prev_post = get_previous_post(false, null, 'services-type');
-$next_post = get_next_post(false, null, 'services-type');
-
-if (!empty($prev_post)) {
-    $prev_post_image = get_field('featured_image', $prev_post->ID);
-}
-
-if (!empty($next_post)) {
-    $next_post_image = get_field('featured_image', $next_post->ID);
+$default_img = array('url' => get_template_directory_uri() . '/img/default-img.jpg');
+if (!$content_image = get_field('content_image')) {
+    if (!$content_image = get_field('featured_image')) {
+        $content_image = $default_img;
+    }
 }
 
 $service_details = get_field('detail');
@@ -43,11 +36,13 @@ foreach($tmp as $term) {
         <div class="container">
             <div class="col-md-12">
                 <h2 class="title"><?php the_title(); ?></h2>
-                <span class="category"><?php echo implode(', ', $categories); ?></span>
+                <?php if (!empty($categories) && count($categories) > 0) { ?>
+                    <span class="category"><?php echo implode(', ', $categories); ?></span>
+                <?php } ?>
             </div>
             <div class="col-md-12"><?php the_excerpt(); ?></div>
             <div class="col-md-12">
-                <img class="img-responsive banner-img" src="<?php echo !empty($featured_image['url']) ? $featured_image['url'] : $default_img; ?>" alt="<?php the_title(); ?>" style="margin: 0px auto 20px auto; display: block;" />
+                <img class="img-responsive banner-img" src="<?php echo $content_image['url']; ?>" alt="<?php the_title(); ?>" style="margin: 0px auto 20px auto; display: block;" />
             </div>
         </div>
     </div>
