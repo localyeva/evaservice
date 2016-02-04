@@ -65,36 +65,42 @@ $post_type = get_post_type_object('company');
                                 <th><p>資本金</p></th>
                                 <td><?php the_field('Capital'); ?></td>
                             </tr>
+<!--
                         <tr align="left">
                             <th>
                         <p>事業内容</p>
                         </th>
                         <td><?php the_field('desc'); ?></td>
                         </tr>
+-->
                         <tr align="left">
                             <th>
-                        <p>ライセンスNo.</p>
+                        <p>株主</p>
                         </th>
                         <td><?php the_field('licence'); ?></td>
                         </tr>
+<!--
                         <tr align="left">
                             <th>
                         <p>従業員数</p>
                         </th>
                         <td><?php the_field('staff'); ?></td>
                         </tr>
+-->
                         <tr align="left">
                             <th>
-                        <p>主要取引銀行</p>
+                        <p>事業内容</p>
                         </th>
                         <td><?php the_field('bank'); ?></td>
                         </tr>
+<!--
                         <tr align="left">
                             <th>
                         <p>経営理念</p>
                         </th>
                         <td><?php the_field('principles'); ?></td>
                         </tr>
+-->
                     </tbody></table>
                     <?php
                     endwhile;
