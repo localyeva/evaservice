@@ -17,7 +17,7 @@ get_header();
 <div class="container-fluid header-why">
     <div class="row">
         <div class="container">
-            <div class="col-md-7 why-text-right">
+            <div class="col-md-7 col-sm-6 why-text-right">
                 <h2>EVOLABLE ASIA Solution & Business Consultancyは、</h2>
                 <h3>クライアントの真のパートナーを目指します。</h3>
                 <div class="row-gap-small"></div>
@@ -26,9 +26,8 @@ get_header();
 
                 </div>
             </div>
-            <div class="col-md-5 why-text-left text-left">
-
-                <img src="http://services.evolable.asia/wp-content/uploads/2016/02/fffffdf.png" alt="" class="img-responsive" />
+            <div class="col-md-5  col-sm-6 why-text-left text-left">
+                <img src="http://services.evolable.asia/wp-content/uploads/2016/02/screen-768x874.png" alt="" class="img-responsive" />
             </div>
         </div>
     </div>
