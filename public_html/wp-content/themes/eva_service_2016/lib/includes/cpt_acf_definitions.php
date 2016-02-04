@@ -293,6 +293,15 @@ if(function_exists("register_field_group"))
                 'library' => 'all',
             ),
             array (
+                'key' => 'field_56b2cd6a3b563',
+                'label' => 'Content Image',
+                'name' => 'content_image',
+                'type' => 'image',
+                'save_format' => 'object',
+                'preview_size' => 'thumbnail',
+                'library' => 'all',
+            ),
+            array (
                 'key' => 'field_56b06646ce891',
                 'label' => 'Service Detail',
                 'name' => 'detail',

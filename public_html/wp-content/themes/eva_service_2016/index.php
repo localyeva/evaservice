@@ -72,7 +72,7 @@ get_header();
                             <div class="row-gap-medium"></div>
                             <p><?php echo the_excerpt(); ?></p>
                             <div class="row-gap-small"></div>
-                            <a href="<?php echo get_permalink(); ?>" class="simple-btn black">LEARN MORE</a>
+                            <!--<a href="<?php echo get_permalink(); ?>" class="simple-btn black">LEARN MORE</a>-->
                             <div class="row-gap-medium"></div>
                         </div>
                     </div>
@@ -86,7 +86,7 @@ get_header();
                             <div class="row-gap-medium"></div>
                             <p><?php echo the_excerpt(); ?></p>
                             <div class="row-gap-small"></div>
-                            <a href="<?php echo get_permalink(); ?>" class="simple-btn black">LEARN MORE</a>
+                            <!--<a href="<?php echo get_permalink(); ?>" class="simple-btn black">LEARN MORE</a>-->
                             <div class="row-gap-medium"></div>
                         </div>
                     </div>
