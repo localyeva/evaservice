@@ -57,12 +57,12 @@ $template_url = get_bloginfo('template_url');
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 text-center navbar-collapse collapse visible-md">
-                            <div class="col-md-4">
+                            <div class="col-md-4 col-xs-6">
                                 <a href="<?php echo $site_url; ?>">
-                                    <img src="<?php echo $template_url; ?>/img/SBC-Logo-Final.png" class="img-responsive" style="margin-top:10px;width: 300px;" />
+                                    <img src="<?php echo $template_url; ?>/img/SBC-Logo-Final.png" class="img-responsive" />
                                 </a>
                             </div>
-                            <div class="col-md-8 pull-right">
+                            <div class="col-md-8 col-xs-6 pull-right">
                                 <ul class="nav navbar-nav navbar-right">
 
                                     <li><a href="<?php echo $site_url; ?>/services/">SERVICE</a></li>
@@ -75,12 +75,12 @@ $template_url = get_bloginfo('template_url');
                         </div>
                         <div class="col-xs-12 visible-xs text-center no-padding-lr">
                             <div class="navbar-header mobie-brand">
-                                <div class="col-xs-8">
+                                <div class="col-xs-6">
                                     <a class="logo-mobie" href="#">
-                                        <img alt="Brand" src="<?php echo $template_url; ?>/img/Logo-banner143413.png" class="img-responsive" />
+                                        <img alt="Brand" src="<?php echo $template_url; ?>/img/SBC-Logo-Final.png" class="img-responsive" />
                                     </a>
                                 </div>
-                                <div class="col-xs-4">
+                                <div class="col-xs-6">
                                     <a id="responsive-menu-button" class="btn btn-toggle navbar-btn pull-right" href="#">
                                         <span class="sr-only">Toggle navigation</span>
                                         <span class="fa fa-bars fa-lg"></span>
