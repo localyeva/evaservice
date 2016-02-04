@@ -63,9 +63,9 @@ $(document).ready(function () {
     });
 });
 
-$(function () {
+$(document).ready(function() {
     $('.service-info article.module').heightLine();
-
+    $('.projects div.project-item').heightLine();
     $('p.footer-his').heightLine();
 });
 

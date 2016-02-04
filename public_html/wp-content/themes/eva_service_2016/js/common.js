@@ -66,6 +66,7 @@ $(document).ready(function () {
 $(function () {
     $('.grid-news .item').heightLine();
     $('#header-service .service-block').heightLine();
+    $('.projects > .project-item').heightLine();
 });
 
 $(function () {

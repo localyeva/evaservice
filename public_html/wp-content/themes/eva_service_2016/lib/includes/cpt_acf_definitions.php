@@ -55,6 +55,7 @@ function cptui_register_my_cpts() {
         "rewrite" => array( "slug" => "services", "with_front" => true ),
         "query_var" => true,
 
+        "supports" => array( "title", "editor", "excerpt" ),
     );
     register_post_type( "services", $args );
 
@@ -141,6 +142,29 @@ function cptui_register_my_cpts() {
     );
     register_post_type("company-activities", $args);
 
+    $labels = array(
+        "name" => "Project",
+        "singular_name" => "Project",
+        );
+
+    $args = array(
+        "labels" => $labels,
+        "description" => "",
+        "public" => true,
+        "show_ui" => true,
+        "has_archive" => false,
+        "show_in_menu" => true,
+        "exclude_from_search" => false,
+        "capability_type" => "post",
+        "map_meta_cap" => true,
+        "hierarchical" => false,
+        "rewrite" => array( "slug" => "project", "with_front" => true ),
+        "query_var" => true,
+
+        "supports" => array( "title", "editor", "excerpt" ),
+    );
+    register_post_type( "project", $args );
+
 // End of cptui_register_my_cpts()
 }
 
@@ -182,6 +206,22 @@ function cptui_register_my_taxes() {
         "show_admin_column" => false,
     );
     register_taxonomy("company-tax", array("company", "company-activities"), $args);
+
+    $labels = array(
+        "name" => "Service Type",
+        "label" => "Service Type",
+        );
+
+    $args = array(
+        "labels" => $labels,
+        "hierarchical" => true,
+        "label" => "Service Type",
+        "show_ui" => true,
+        "query_var" => true,
+        "rewrite" => array( 'slug' => 'service-type', 'with_front' => true ),
+        "show_admin_column" => false,
+    );
+    register_taxonomy( "service-type", array( "services", "project" ), $args );
 
 // End cptui_register_my_taxes
 }
@@ -245,12 +285,61 @@ if(function_exists("register_field_group"))
         'fields' => array (
             array (
                 'key' => 'field_569dee80f30bb',
-                'label' => 'Image',
-                'name' => 'image',
+                'label' => 'Featured Image',
+                'name' => 'featured_image',
                 'type' => 'image',
                 'save_format' => 'object',
                 'preview_size' => 'thumbnail',
                 'library' => 'all',
+            ),
+            array (
+                'key' => 'field_56b06646ce891',
+                'label' => 'Service Detail',
+                'name' => 'detail',
+                'type' => 'repeater',
+                'sub_fields' => array (
+                    array (
+                        'key' => 'field_56b066d5ce892',
+                        'label' => 'Detail Name',
+                        'name' => 'detail_name',
+                        'type' => 'text',
+                        'required' => 1,
+                        'column_width' => '',
+                        'default_value' => '',
+                        'placeholder' => '',
+                        'prepend' => '',
+                        'append' => '',
+                        'formatting' => 'html',
+                        'maxlength' => '',
+                    ),
+                    array (
+                        'key' => 'field_56b06734ce893',
+                        'label' => 'Detail Content',
+                        'name' => 'detail_content',
+                        'type' => 'textarea',
+                        'required' => 1,
+                        'column_width' => '',
+                        'default_value' => '',
+                        'placeholder' => '',
+                        'maxlength' => '',
+                        'rows' => '',
+                        'formatting' => 'br',
+                    ),
+                    array (
+                        'key' => 'field_56b0674fce894',
+                        'label' => 'Detail Image',
+                        'name' => 'detail_image',
+                        'type' => 'image',
+                        'column_width' => '',
+                        'save_format' => 'object',
+                        'preview_size' => 'thumbnail',
+                        'library' => 'all',
+                    ),
+                ),
+                'row_min' => '',
+                'row_limit' => '',
+                'layout' => 'table',
+                'button_label' => 'Add Row',
             ),
         ),
         'location' => array (
@@ -626,6 +715,52 @@ if(function_exists("register_field_group"))
             'position' => 'normal',
             'layout' => 'no_box',
             'hide_on_screen' => array(
+            ),
+        ),
+        'menu_order' => 0,
+    ));
+
+    register_field_group(array (
+        'id' => 'acf_project',
+        'title' => 'Project',
+        'fields' => array (
+            array (
+                'key' => 'field_56b162068d6c3',
+                'label' => 'Project Owner',
+                'name' => 'project_owner',
+                'type' => 'text',
+                'default_value' => '',
+                'placeholder' => '',
+                'prepend' => '',
+                'append' => '',
+                'formatting' => 'html',
+                'maxlength' => '',
+            ),
+            array (
+                'key' => 'field_56b167c46b0da',
+                'label' => 'Image',
+                'name' => 'image',
+                'type' => 'image',
+                'save_format' => 'object',
+                'preview_size' => 'thumbnail',
+                'library' => 'all',
+            ),
+        ),
+        'location' => array (
+            array (
+                array (
+                    'param' => 'post_type',
+                    'operator' => '==',
+                    'value' => 'project',
+                    'order_no' => 0,
+                    'group_no' => 0,
+                ),
+            ),
+        ),
+        'options' => array (
+            'position' => 'normal',
+            'layout' => 'no_box',
+            'hide_on_screen' => array (
             ),
         ),
         'menu_order' => 0,
