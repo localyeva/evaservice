@@ -106,6 +106,14 @@ $template_url = get_bloginfo('template_url');
                             <div class="row mobile-menu" id="sidr">
                                 <div class="col-xs-12">
                                     <ul class="nav navbar-nav">
+                                        <li>
+                                            <a href="#"  class="logo">
+                                                <img alt="Brand" src="<?php echo $template_url; ?>/img/SBC-Logo-Final.png" />
+                                            </a>
+                                            <a id="btn-mobile-close" href="javascript:void(0);" class="close">
+                                                <span class="fa fa-close fa-lg"></span>
+                                            </a>
+                                        </li>
                                         <li><a href="<?php echo $site_url; ?>">HOME</a></li>
                                         <li><a href="<?php echo $site_url; ?>/company/">COMPANY</a></li>
                                         <li><a href="<?php echo $site_url; ?>/#header-service" data-goto="header-service">SERVICE</a></li>
