@@ -12,7 +12,7 @@ $template_url = get_bloginfo('template_url');
     <meta name="description" content="ベトナムでのオフショア開発、ラボ型オフショア開発、BPOのエボラブルアジアのお問い合わせページです。" />
     <meta name="keywords" content="ベトナム, オフショア開発, ラボ型オフショア開発, BPO, アウトソーシング, ホーチミン, エボラブルアジア, Evolable Asia" />
 
-    <title>TOP | オフショア ベトナム｜ベトナムでのラボ型開発、BPOならエボラブルアジア</title>
+    <title><?php echo wp_title('|', true, 'right') ?></title>
 
     <!-- Bootstrap -->
     <link href="<?php echo $template_url; ?>/css/font-awesome.min.css" rel="stylesheet">
