@@ -55,6 +55,10 @@ $(document).ready(function () {
         source: '#sidr'
     });
 
+    $('#sidr-id-btn-mobile-close').click(function() {
+       $('#responsive-menu-button').click();
+    });
+
     $('a').on('click', function () {
         if ($(this).data('goto') != '') {
             var goto = $(this).data('goto');
