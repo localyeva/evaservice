@@ -27,7 +27,7 @@ get_header();
                 </div>
             </div>
             <div class="col-md-5  col-sm-6 why-text-left text-left">
-                <img src="http://services.evolable.asia/wp-content/uploads/2016/02/screen-768x874.png" alt="" class="img-responsive" style="margin: 0 auto;" width="300" />
+                <img src="<?php echo get_template_directory_uri() ?>/img/screen-768x874.png" alt="" class="img-responsive" style="margin: 0 auto;" width="300" />
             </div>
         </div>
     </div>
