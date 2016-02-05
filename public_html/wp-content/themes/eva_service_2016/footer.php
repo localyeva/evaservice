@@ -15,7 +15,7 @@ $template_url = get_bloginfo('template_url');
                     <div class="col-xs-12 col-md-4">
                         <div class="row">
                             <div class="col-xs-12">
-                                <img src="<?php echo $template_url; ?>/img/30.png" alt="" class="img-responsive center-block">
+                                <img src="<?php echo $template_url; ?>/img/SBC-Logo-Final.png" alt="" class="img-responsive center-block">
                             </div>
                         </div>
                         <div class="row-gap-small"></div>
