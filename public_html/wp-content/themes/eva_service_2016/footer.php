@@ -36,7 +36,7 @@ $template_url = get_bloginfo('template_url');
                         <ul class="nav navbar-nav">
                             <li><a href="<?php echo $site_url; ?>">Home <span class="glyphicon glyphicon-menu-right right-icon" aria-hidden="true"></span></a></li>
                             <li><a href="<?php echo $site_url; ?>/company/">Company <span class="glyphicon glyphicon-menu-right right-icon" aria-hidden="true"></span></a></li>
-                            <li><a href="<?php echo $site_url; ?>/services/">Services <span class="glyphicon glyphicon-menu-right right-icon" aria-hidden="true"></span></a></li>
+                            <li><a href="<?php echo $site_url; ?>/#header-service" data-goto="header-service">Services <span class="glyphicon glyphicon-menu-right right-icon" aria-hidden="true"></span></a></li>
                             <li><a href="<?php echo $site_url; ?>/news/">News <span class="glyphicon glyphicon-menu-right right-icon" aria-hidden="true"></span></a></li>
                             <li><a href="<?php echo $site_url; ?>/contact/">Contact <span class="glyphicon glyphicon-menu-right right-icon" aria-hidden="true"></span></a></li>
                         </ul>

@@ -75,19 +75,17 @@ $template_url = get_bloginfo('template_url');
                 <div class="container">
                     <div class="row">
                         <div class="col-md-12 text-center navbar-collapse collapse visible-md">
-                            <div class="col-md-4 col-xs-6">
+                            <div class="col-md-4 col-xs-5">
                                 <a href="<?php echo $site_url; ?>">
                                     <img src="<?php echo $template_url; ?>/img/SBC-Logo-Final.png" class="img-responsive" />
                                 </a>
                             </div>
-                            <div class="col-md-8 col-xs-6 pull-right">
+                            <div class="col-md-8 col-xs-7 pull-right">
                                 <ul class="nav navbar-nav navbar-right">
-
-                                    <li><a href="<?php echo $site_url; ?>/services/">SERVICE</a></li>
-
+                                    <li><a href="<?php echo $site_url; ?>/#header-service" data-goto="header-service">SERVICE</a></li>
                                     <li><a href="<?php echo $site_url; ?>/company/">COMPANY</a></li>
                                     <li><a href="<?php echo $site_url; ?>/news/">NEWS</a></li>
-                                    <li><a href="<?php echo $site_url; ?>/contact/">CONTACT</a></li>
+                                    <li><a href="<?php echo $site_url; ?>/contact/"><span class="btn-highlight">CONTACT</span></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -110,7 +108,7 @@ $template_url = get_bloginfo('template_url');
                                     <ul class="nav navbar-nav">
                                         <li><a href="<?php echo $site_url; ?>">HOME</a></li>
                                         <li><a href="<?php echo $site_url; ?>/company/">COMPANY</a></li>
-                                        <li><a href="<?php echo $site_url; ?>/services/">SERVICE</a></li>
+                                        <li><a href="<?php echo $site_url; ?>/#header-service" data-goto="header-service">SERVICE</a></li>
                                         <li><a href="<?php echo $site_url; ?>/news/">NEWS</a></li>
                                         <li><a href="<?php echo $site_url; ?>/contact/">CONTACT</a></li>
                                     </ul>
