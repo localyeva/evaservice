@@ -111,7 +111,7 @@ $post_type = get_post_type_object('company');
             </div>
         </div>
     </div>
-
+<!------------------------------------------------------------------------------------------------------------------
     <div class="container-fluid text-center" id="profile">
         <div class="container">
             <div class="row">
@@ -141,7 +141,7 @@ $post_type = get_post_type_object('company');
             </div>
         </div>
     </div>
-
+---------------------------------------------------------------------------------------------------->
     <div class="container-fluid text-center">
         <div class="container">
             <h1>Office</h1>
