@@ -12,6 +12,8 @@ $template_url = get_bloginfo('template_url');
         <meta name="description" content="EVOLABLE ASIA Solution & Business Consultancyは、東南アジア地域で日系最大規模のラボ型開発企業であるEVOLABLE ASIAの100%子会社として設立。これまで培ってきたデジタルマーケティングに関するノウハウをコアバリューとしSolutionをカタチに実現します。" />
         <meta name="keywords" content="ベトナム, web制作,動画制作,SEO対策,マーケティング, エボラブルアジア, Evolable Asia" />
 
+        <link rel="shortcut icon" type="image/x-icon" href="<?php echo $template_url ?>/img/evaicon.png" />
+
         <title>EVOLABLE ASIA Solution & Business Consultancy</title>
 
         <!-- Bootstrap -->
