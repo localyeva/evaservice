@@ -18,11 +18,11 @@ get_header();
     <div class="row">
         <div class="container">
             <div class="col-md-7 col-sm-6 why-text-right">
-                <h2>EVOLABLE ASIA Solution & Business Consultancyは、</h2>
+                <h2>EVOLABLE ASIA SOLUTION & BUSINESS CONSULTANCY COMPANYは、</h2>
                 <h3>クライアントの真のパートナーを目指します。</h3>
                 <div class="row-gap-small"></div>
                 <div class="text-small">東南アジア地域で日系最大規模のラボ型開発企業であるEVOLABLE ASIAの100%子会社として設立。
-<br>２０１２年３月の設立から３年間で５００名体制まで拡大している同社のノウハウを受け継ぐことで、幅広い領域に対応できるのが私たちの強みです。クライアントのコミュニケーションをなによりも大切にし、課題の発見から解決までワンストップでサービスをご提供します。
+<br>2012年3月の設立から3年間で500名体制まで拡大している同社のノウハウを受け継ぐことで、幅広い領域に対応できるのが私たちの強みです。クライアントのコミュニケーションをなによりも大切にし、課題の発見から解決までワンストップでサービスをご提供します。
 
                 </div>
             </div>
