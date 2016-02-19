@@ -47,7 +47,7 @@ get_header();
     </div>
     <div class="row-gap-medium"></div>
     <div class="head-banner-wrap no-background">
-        <h2>Contact</h2>
+        <h2><?php echo translateX('Contact') ?></h2>
     </div>
     <div class="row-gap-medium"></div>
     <div class="container contact">
@@ -137,7 +137,7 @@ get_header();
                     <textarea id="contact-content" name="reg_content" class="form-control" rows="10"><?php echo $reg_content ?></textarea>
                 </div>
             </div>
-            
+
             <div class="col-sm-12 privacy">
                 <div class="box">
                     <strong>【個人情報の取り扱いについて】</strong>

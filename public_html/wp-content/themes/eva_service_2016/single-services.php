@@ -50,7 +50,7 @@ foreach($tmp as $term) {
     <?php if (is_array($service_details) && count($service_details) > 0) { ?>
         <div class="container-fluid">
             <div class="container">
-                <h3 class="text-center service-text">Services</h3>
+                <h3 class="text-center service-text"><?php echo translateX('Services') ?></h3>
                 <div class="row-gap-big"></div>
             </div>
         </div>
@@ -102,7 +102,7 @@ foreach($tmp as $term) {
     <?php if ($wp_query->have_posts()) { ?>
     <div class="container-fluid">
         <div class="container">
-            <h3 class="text-center service-text">Projects</h3>
+            <h3 class="text-center service-text"><?php echo translateX('Projects') ?></h3>
             <div class="row-gap-medium"></div>
             <div class="row">
                 <div class="col-md-12 text-center">Lorem ipsum dolor sit amet</div>
@@ -128,7 +128,7 @@ foreach($tmp as $term) {
                     <?php wp_reset_postdata(); ?>
                 <?php } ?>
                 <div class="col-md-12 text-center">
-                    <a href="#" class="more-projects">See more projects</a>
+                    <a href="#" class="more-projects"><?php echo translateX('See more projects'); ?></a>
                 </div>
             </div>
             <div class="row-gap-big"></div>
