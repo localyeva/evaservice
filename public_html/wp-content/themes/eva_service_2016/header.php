@@ -12,7 +12,7 @@ $template_url = get_bloginfo('template_url');
 
         <?php
         if ($current_language != 'en' && $current_language != 'en-US') {
-            include_once 'languages/' . $current_language . '.php';
+            include_once 'lib/includes/languages/' . $current_language . '.php';
         }
 
         session_start();
@@ -80,10 +80,10 @@ $template_url = get_bloginfo('template_url');
                             <div class="col-md-2  col-sm-2 col-xs-2"><?php echo qtranxf_generateLanguageSelectCode('image'); ?></div>
                             <div class="col-md-6  col-sm-6 col-xs-7 pull-right">
                                 <ul class="nav navbar-nav navbar-right">
-                                    <li><a href="<?php echo $site_url; ?>/#header-service" data-goto="header-service"><?php echo strtoupper(translateX('Service')); ?></a></li>
-                                    <li><a href="<?php echo $site_url; ?>/company/"><?php echo strtoupper(translateX('Company')); ?></a></li>
-                                    <li><a href="<?php echo $site_url; ?>/news/"><?php echo strtoupper(translateX('News')); ?></a></li>
-                                    <li><a href="<?php echo $site_url; ?>/contact/"><span class="btn-highlight"><?php echo strtoupper(translateX('Contact')); ?></span></a></li>
+                                    <li><a href="<?php echo $site_url; ?>/#header-service" data-goto="header-service" class="text-uppercase"><?php echo translateX('Service'); ?></a></li>
+                                    <li><a href="<?php echo $site_url; ?>/company/" class="text-uppercase"><?php echo translateX('Company'); ?></a></li>
+                                    <li><a href="<?php echo $site_url; ?>/news/" class="text-uppercase"><?php echo translateX('News'); ?></a></li>
+                                    <li><a href="<?php echo $site_url; ?>/contact/" class="text-uppercase"><span class="btn-highlight"><?php echo translateX('Contact'); ?></span></a></li>
                                 </ul>
                             </div>
                         </div>
@@ -113,11 +113,11 @@ $template_url = get_bloginfo('template_url');
                                                 <span class="fa fa-close fa-lg"></span>
                                             </a>
                                         </li>
-                                        <li><a href="<?php echo $site_url; ?>"><?php echo strtoupper(translateX('Home')); ?></a></li>
-                                        <li><a href="<?php echo $site_url; ?>/company/"><?php echo strtoupper(translateX('Company')); ?></a></li>
-                                        <li><a href="<?php echo $site_url; ?>/#header-service" data-goto="header-service"><?php echo strtoupper(translateX('Service')); ?></a></li>
-                                        <li><a href="<?php echo $site_url; ?>/news/"><?php echo strtoupper(translateX('News')); ?></a></li>
-                                        <li><a href="<?php echo $site_url; ?>/contact/"><?php echo strtoupper(translateX('Contact')); ?></a></li>
+                                        <li><a href="<?php echo $site_url; ?>" class="text-uppercase"><?php echo translateX('Home'); ?></a></li>
+                                        <li><a href="<?php echo $site_url; ?>/company/" class="text-uppercase"><?php echo translateX('Company'); ?></a></li>
+                                        <li><a href="<?php echo $site_url; ?>/#header-service" data-goto="header-service" class="text-uppercase"><?php echo translateX('Service'); ?></a></li>
+                                        <li><a href="<?php echo $site_url; ?>/news/" class="text-uppercase"><?php echo translateX('News'); ?></a></li>
+                                        <li><a href="<?php echo $site_url; ?>/contact/" class="text-uppercase"><?php echo translateX('Contact'); ?></a></li>
                                     </ul>
                                 </div>
                             </div>
