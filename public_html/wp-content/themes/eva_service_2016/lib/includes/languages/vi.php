@@ -10,8 +10,8 @@
 	$lang['Learn more'] = "Xem thêm";
 	$lang['View all'] = "Xem tất cả";
 
-	$lang['Company profile'] = "Hồ sơ công ty";
-	$lang['Affiliated Company'] = "Công ty liên kết";
+	$lang['Company Profile'] = "Hồ sơ công ty";
+	$lang['Affiliated company'] = "Công ty liên kết";
 	$lang['Office'] = "Văn phòng";
 
 	$lang['EVOLABLE ASIA Solution & Business Consultancy'] = "EVOLABLE ASIA Solution & Business Consultancy";

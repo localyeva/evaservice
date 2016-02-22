@@ -13,13 +13,13 @@ $post_type = get_post_type_object('company');
     </div>
     <div class="row-gap-medium"></div>
     <div class="container-fluid">
-        <div class="head-banner-wrap no-background row">
-            <h2>Company</h2>
+        <div class="head-banner-wrap no-background row text-capitalize">
+            <h2><?php echo translateX('Company'); ?></h2>
         </div>
     </div>
     <div class="container-fluid text-center" id="detail-contact">
         <div class="container detail">
-            <h1>Company Profile</h1>
+            <h1 class="text-capitalize"><?php echo translateX('Company Profile'); ?></h1>
             <div class="row" style="max-width:800px;margin:auto;">
                 <div class="col-xs-12 infos no-padding-lr">
                     <?php
@@ -144,7 +144,7 @@ $post_type = get_post_type_object('company');
 ---------------------------------------------------------------------------------------------------->
     <div class="container-fluid text-center">
         <div class="container">
-            <h1>Office</h1>
+            <h1 class="text-capitalize"><?php echo translateX('Office'); ?></h1>
             <div class="row center-block" style="max-width:700px;margin:auto;background:#f5f5f5;border:solid 1px #ccc;padding:15px 0px 15px 40px;">
                 <?php
                 $maps = array();

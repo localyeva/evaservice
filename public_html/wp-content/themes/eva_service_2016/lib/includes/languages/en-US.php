@@ -11,7 +11,7 @@
     $lang['View all'] = "View all";
 
     $lang['Company profile'] = "Company profile";
-    $lang['Affiliated Company'] = "Affiliated Company";
+    $lang['Affiliated company'] = "Affiliated company";
     $lang['Office'] = "Office";
 
     $lang['EVOLABLE ASIA Solution & Business Consultancy'] = "EVOLABLE ASIA Solution & Business Consultancy";
