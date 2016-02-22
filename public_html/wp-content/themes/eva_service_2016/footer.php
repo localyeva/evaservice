@@ -34,11 +34,11 @@ $template_url = get_bloginfo('template_url');
                     </div>
                     <div class="col-xs-12 no-padding-lr menu-footer-mobi">
                         <ul class="nav navbar-nav">
-                            <li><a href="<?php echo $site_url; ?>">Home <span class="glyphicon glyphicon-menu-right right-icon" aria-hidden="true"></span></a></li>
-                            <li><a href="<?php echo $site_url; ?>/company/">Company <span class="glyphicon glyphicon-menu-right right-icon" aria-hidden="true"></span></a></li>
-                            <li><a href="<?php echo $site_url; ?>/#header-service" data-goto="header-service">Services <span class="glyphicon glyphicon-menu-right right-icon" aria-hidden="true"></span></a></li>
-                            <li><a href="<?php echo $site_url; ?>/news/">News <span class="glyphicon glyphicon-menu-right right-icon" aria-hidden="true"></span></a></li>
-                            <li><a href="<?php echo $site_url; ?>/contact/">Contact <span class="glyphicon glyphicon-menu-right right-icon" aria-hidden="true"></span></a></li>
+                            <li><a href="<?php echo $site_url; ?>"><?php echo strtoupper(translateX('Home')); ?> <span class="glyphicon glyphicon-menu-right right-icon" aria-hidden="true"></span></a></li>
+                            <li><a href="<?php echo $site_url; ?>/company/"><?php echo strtoupper(translateX('Company')); ?> <span class="glyphicon glyphicon-menu-right right-icon" aria-hidden="true"></span></a></li>
+                            <li><a href="<?php echo $site_url; ?>/#header-service" data-goto="header-service"><?php echo strtoupper(translateX('Services')); ?> <span class="glyphicon glyphicon-menu-right right-icon" aria-hidden="true"></span></a></li>
+                            <li><a href="<?php echo $site_url; ?>/news/"><?php echo strtoupper(translateX('News')); ?> <span class="glyphicon glyphicon-menu-right right-icon" aria-hidden="true"></span></a></li>
+                            <li><a href="<?php echo $site_url; ?>/contact/"><?php echo strtoupper(translateX('Contact')); ?> <span class="glyphicon glyphicon-menu-right right-icon" aria-hidden="true"></span></a></li>
                         </ul>
                     </div>
                     <div class="col-xs-4 col-md-4 hidden-xs">

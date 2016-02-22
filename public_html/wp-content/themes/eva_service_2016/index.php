@@ -40,7 +40,7 @@ get_header();
     <div class="row service-bg bg-silver">
         <div class="col-xs-12">
             <div class="row-gap-big"></div>
-            <h2 class="text-center text-spacing short-line">SERVICES</h2>
+            <h2 class="text-center text-spacing short-line"><?php echo strtoupper(translateX('Services')); ?></h2>
             <div class="row-gap-big"></div>
         </div>
     </div>
@@ -72,7 +72,7 @@ get_header();
                             <p><?php echo the_excerpt(); ?></p>
                             <div class="row-gap-small"></div>
                             <?php if (get_the_content()) { ?>
-                                <a href="<?php echo get_permalink(); ?>" class="simple-btn black">LEARN MORE</a>
+                                <a href="<?php echo get_permalink(); ?>" class="simple-btn black"><?php echo strtoupper(translateX('Learn more')); ?></a>
                             <?php } ?>
                             <div class="row-gap-medium"></div>
                         </div>
@@ -88,7 +88,7 @@ get_header();
                             <p><?php echo the_excerpt(); ?></p>
                             <div class="row-gap-small"></div>
                             <?php if (get_the_content()) { ?>
-                                <a href="<?php echo get_permalink(); ?>" class="simple-btn black">LEARN MORE</a>
+                                <a href="<?php echo get_permalink(); ?>" class="simple-btn black"><?php echo strtoupper(translateX('Learn more')); ?></a>
                             <?php } ?>
                             <div class="row-gap-medium"></div>
                         </div>
@@ -107,7 +107,7 @@ get_header();
 
 <!--//News-->
 <div class="container-fluid block-center header-news">
-    <h1 class="text-center">News</h1>
+    <h1 class="text-center"><?php echo translateX('News'); ?></h1>
     <div class="container">
         <div class="row">
             <?php
@@ -169,7 +169,7 @@ get_header();
         <div class="row">
             <div class="col-xs-12 col-md-12 text-center">
                 <a href="<?php echo home_url('news') ?>">
-                    <button class="btn btn-slim "><span class="glyphicon glyphicon-plus"></span>View All</button>
+                    <button class="btn btn-slim "><span class="glyphicon glyphicon-plus"></span><?php echo strtoupper(translateX('View all')); ?></button>
                 </a>
             </div>
         </div>

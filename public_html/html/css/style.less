@@ -532,8 +532,7 @@ h1 {
                 color: #000;
                 height: @navbar-height;
                 line-height: @navbar-height;
-                padding-top: 0;
-                padding-bottom: 0;
+                padding: 0 10px;
                 &.active {
                     color: #D82670;
                 }
@@ -2506,6 +2505,24 @@ div.box_txt{
     }
 }
 
+.language-chooser {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+    > li {
+        float: left;
+        margin: 0 2px;
+        padding: 20px 0;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .top-logo {
+        margin-top: 10px;
+    }
+}
+
 @media only screen and (max-width: 640px) {
     .intro {
         h2 {
@@ -2565,6 +2582,11 @@ div.box_txt{
             width: 320px !important;
         }
     }
+    .language-chooser {
+        > li {
+            padding: 12px 0;
+        }
+    }
 }
 
 @media only screen and (max-width: 450px) {
@@ -2589,6 +2611,9 @@ div.box_txt{
             font-size: 1.1em !important;
         }
     }
+    .top-logo {
+        margin-top: 4px;
+    }
 }
 
 @media only screen and (max-width: 400px) {
@@ -2610,6 +2635,9 @@ div.box_txt{
                 }
             }
         }
+    }
+    .top-logo {
+        margin-top: 7px;
     }
 }
 

@@ -30,7 +30,7 @@ if (!empty($next_post)) {
     <div class="row-gap-medium"></div>
     <div class="container-fluid">
         <div class="head-banner-wrap no-background row">
-            <h2><?php echo $post_type->label; ?></h2>
+            <h2><?php echo translateX($post_type->label); ?></h2>
         </div>
     </div>
     <div class="row-gap-medium"></div>
