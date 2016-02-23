@@ -19,7 +19,7 @@ $post_type = get_post_type_object('company');
     </div>
     <div class="container-fluid text-center" id="detail-contact">
         <div class="container detail">
-            <h1 class="text-capitalize"><?php echo translateX('Company Profile'); ?></h1>
+            <h1 class="text-capitalize"><?php echo translateX('Company profile'); ?></h1>
             <div class="row" style="max-width:800px;margin:auto;">
                 <div class="col-xs-12 infos no-padding-lr">
                     <?php
@@ -38,31 +38,31 @@ $post_type = get_post_type_object('company');
                     <table class="table table-responsive table-striped profileTable detail-info">
                         <tbody>
                             <tr align="left">
-                                <th><p>社名</p></th>
+                                <th><p><?php echo translateX('Company name'); ?></p></th>
                                 <td><?php the_field('name'); ?></td>
                             </tr>
                             <tr align="left">
-                                <th><p>所在地</p></th>
+                                <th><p><?php echo translateX('Location'); ?></p></th>
                                 <td><?php the_field('location'); ?></td>
                             </tr>
                             <tr align="left">
-                                <th><p>電話番号(Phone)</p></th>
+                                <th><p><?php echo translateX('Phone number'); ?></p></th>
                                 <td><?php the_field('phone_number'); ?></td>
                             </tr>
                             <tr align="left">
-                                <th><p>FAX</p></th>
+                                <th><p><?php echo translateX('FAX'); ?></p></th>
                                 <td><?php the_field('fax'); ?></td>
                             </tr>
                             <tr align="left">
-                                <th><p>役員</p></th>
+                                <th><p><?php echo translateX('Officer'); ?></p></th>
                                 <td><?php the_field('officer'); ?></td>
                             </tr>
                             <tr align="left">
-                                <th><p>設立</p></th>
+                                <th><p><?php echo translateX('Establishment'); ?></p></th>
                                 <td><?php the_field('establishment'); ?></td>
                             </tr>
                             <tr align="left">
-                                <th><p>資本金</p></th>
+                                <th><p><?php echo translateX('Capital'); ?></p></th>
                                 <td><?php the_field('Capital'); ?></td>
                             </tr>
 <!--
@@ -75,7 +75,7 @@ $post_type = get_post_type_object('company');
 -->
                         <tr align="left">
                             <th>
-                        <p>株主</p>
+                        <p><?php echo translateX('License'); ?></p>
                         </th>
                         <td><?php the_field('licence'); ?></td>
                         </tr>
@@ -89,7 +89,7 @@ $post_type = get_post_type_object('company');
 -->
                         <tr align="left">
                             <th>
-                        <p>事業内容</p>
+                        <p><?php echo translateX('Business banks'); ?></p>
                         </th>
                         <td><?php the_field('bank'); ?></td>
                         </tr>
