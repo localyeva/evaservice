@@ -18,13 +18,7 @@ get_header();
     <div class="row">
         <div class="container">
             <div class="col-md-7 col-sm-6 why-text-right">
-                <h2>EVOLABLE ASIA SOLUTION & BUSINESS CONSULTANCY COMPANYは、</h2>
-                <h3>クライアントの真のパートナーを目指します。</h3>
-                <div class="row-gap-small"></div>
-                <div class="text-small">東南アジア地域で日系最大規模のラボ型開発企業であるEVOLABLE ASIAの100%子会社として設立。
-<br>2012年3月の設立から3年間で500名体制まで拡大している同社のノウハウを受け継ぐことで、幅広い領域に対応できるのが私たちの強みです。クライアントのコミュニケーションをなによりも大切にし、課題の発見から解決までワンストップでサービスをご提供します。
-
-                </div>
+                <?php echo get_part_company_intro_text(); ?>
             </div>
             <div class="col-md-5  col-sm-6 why-text-left text-left">
                 <img src="<?php echo get_template_directory_uri() ?>/img/screen-768x874.png" alt="" class="img-responsive" style="margin: 0 auto;" width="300" />

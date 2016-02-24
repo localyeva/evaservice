@@ -41,3 +41,14 @@
     $lang['Content of inquiry'] = 'Nội dung';
     $lang['(Terms of personal information policy)'] = '(Điều khoản của chính sách thông tin cá nhân)';
     $lang['Agree and send'] = '同意して送信する';
+
+    $lang['From Web forms, please feel free to contact us'] = 'Từ các ứng dụng Web, xin vui lòng liên hệ với chúng tôi';
+    $lang['Consultation from your phone, click here'] = 'Để được tư vấn qua điện thoại, bấm vào đây';
+    $lang['* Japanese are also available.'] = '* Bạn có thể sử dụng tiếng Nhật.';
+    $lang['Web consultation is here'] = 'Tư vấn Web tại đây';
+
+    $lang['Ho Chi Minh City headquarters'] = 'Trụ sở chính Thành phố Hồ Chí Minh';
+    $lang['Ho Chi Minh City branch'] = 'Chi nhánh Thành phố Hồ Chí Minh';
+    $lang['Hanoi branch'] = 'Chi nhánh Hà Nội';
+    $lang['Da Nang branch'] = 'Chi nhánh Đà Nẵng';
+    $lang['Contact us'] = 'Liên hệ';
