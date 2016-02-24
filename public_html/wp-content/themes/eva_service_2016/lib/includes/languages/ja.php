@@ -2,13 +2,13 @@
 	$lang = array();
 	$lang['Home page'] = "Home page";
 	$lang['Home'] = "Home";
-	$lang['Service'] = "Service";
-	$lang['Services'] = "Services";
+	$lang['Service'] = "サービス";
+	$lang['Services'] = "サービス";
 	$lang['Company'] = "会社";
 	$lang['News'] = "ニュース";
 	$lang['Contact'] = "接触";
-	$lang['Learn more'] = "Learn more";
-	$lang['View all'] = "View all";
+	$lang['Learn more'] = "もっと見る";
+	$lang['View all'] = "すべて表示";
 
 	$lang['Company profile'] = "会社概要";
 	$lang['Affiliated company'] = "Affiliated company";
@@ -41,3 +41,15 @@
     $lang['Content of inquiry'] = 'お問い合わせ内容';
     $lang['(Terms of personal information policy)'] = '【個人情報の取り扱いについて】';
     $lang['Agree and send'] = '同意して送信する';
+
+    $lang['From web forms, please feel free to contact us'] = 'Webフォームより、お気軽にお問い合わせください';
+    $lang['Consultation from your phone, click here'] = 'お電話からのご相談はこちら';
+    $lang['* Japanese are also available.'] = '※日本語も対応可能です。';
+    $lang['Web consultation is here'] = 'Webからのご相談はこちら';
+
+    $lang['Ho Chi Minh City headquarters'] = 'ホーチミン本社';
+    $lang['Ho Chi Minh City branch'] = 'ホーチミン支店';
+    $lang['Hanoi branch'] = 'ハノイ支店';
+    $lang['Da Nang branch'] = 'ダナン支店';
+    $lang['Contact us'] = 'お問い合わせ';
+

@@ -8,9 +8,11 @@
 function theme_customize_register($wp_customize) {
 
     $wp_customize->add_section('home', array(
-        'title' => __('HOME VIDEO'),
+        'title' => __('HOME PAGE'),
         'priority' => 20,
     ));
+
+    // Video
 
     $wp_customize->add_setting('part_work_environment_movie_cover', array(
         'default' => '',
@@ -73,6 +75,42 @@ function theme_customize_register($wp_customize) {
         'label'   => __('Văn bản sẽ được hiển thị ở phía trước của video'),
         'section' => 'home',
         'settings' => 'part_work_environment_intro_text_vi',
+        'type'    => 'textarea',
+        'priority' => 1,
+    ));
+
+    // Overview
+
+    $wp_customize->add_setting('part_company_intro_text_en', array(
+        'default' => '',
+    ));
+    $wp_customize->add_setting('part_company_intro_text_ja', array(
+        'default' => '',
+    ));
+    $wp_customize->add_setting('part_company_intro_text_vi', array(
+        'default' => '',
+    ));
+
+    $wp_customize->add_control('part_company_intro_text_en', array(
+        'label'   => __('A brief introduction about the company'),
+        'section' => 'home',
+        'settings' => 'part_company_intro_text_en',
+        'type'    => 'textarea',
+        'priority' => 1,
+    ));
+
+    $wp_customize->add_control('part_company_intro_text_ja', array(
+        'label'   => __('会社についての簡単な紹介'),
+        'section' => 'home',
+        'settings' => 'part_company_intro_text_ja',
+        'type'    => 'textarea',
+        'priority' => 1,
+    ));
+
+    $wp_customize->add_control('part_company_intro_text_vi', array(
+        'label'   => __('Giới thiệu ngắn gọn về công ty'),
+        'section' => 'home',
+        'settings' => 'part_company_intro_text_vi',
         'type'    => 'textarea',
         'priority' => 1,
     ));
@@ -165,6 +203,21 @@ function get_part_contact_term_text() {
             break;
         default:
             $text =  get_theme_mod('part_contact_term_text_en');
+    }
+    return $text;
+}
+
+function get_part_company_intro_text() {
+    $text = '';
+    switch(get_bloginfo('language')) {
+        case 'ja':
+            $text =  get_theme_mod('part_company_intro_text_ja');
+            break;
+        case 'vi':
+            $text =  get_theme_mod('part_company_intro_text_vi');
+            break;
+        default:
+            $text =  get_theme_mod('part_company_intro_text_en');
     }
     return $text;
 }

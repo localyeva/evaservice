@@ -21,7 +21,7 @@ $template_url = get_bloginfo('template_url');
                         <div class="row-gap-small"></div>
                         <div class="row">
                             <div class="col-xs-12">
-                                <div class="btn btn-slim ev-mobie-footer center-block"><a class="alnk" href="<?php echo $site_url; ?>/contact">お問い合わせ</a></div>
+                                <div class="btn btn-slim ev-mobie-footer center-block"><a class="alnk" href="<?php echo $site_url; ?>/contact"><?php echo translateX('Contact us'); ?></a></div>
                             </div>
                         </div>
                         <div class="row-gap-small"></div>
@@ -42,7 +42,7 @@ $template_url = get_bloginfo('template_url');
                         </ul>
                     </div>
                     <div class="col-xs-4 col-md-4 hidden-xs">
-                        <label>ホーチミン本社</label>
+                        <label><?php echo translateX('Ho Chi Minh City headquarters') ?></label>
                         <div class="row">
                             <div class="col-xs-12">
                                 <p class="small">4F Saigon Finance Center, 9 Dinh Tien Hoang Street, District 1, HCMC</p>
@@ -51,7 +51,7 @@ $template_url = get_bloginfo('template_url');
                             </div>
                         </div>
                         <div class="row-gap-medium"></div>
-                        <label>ホーチミン支店</label>
+                        <label><?php echo translateX('Ho Chi Minh City branch') ?></label>
                         <div class="row">
                             <div class="col-xs-12">
                                 <small>14F GOLDEN TOWER, 6 Nguyen Thi Minh Khai Street,District1, HCMC</small>
@@ -60,7 +60,7 @@ $template_url = get_bloginfo('template_url');
                     </div>
 
                     <div class="col-xs-4 col-md-4 hidden-xs">
-                        <label>ハノイ支店</label>
+                        <label><?php echo translateX('Hanoi branch') ?></label>
                         <div class="row">
                             <div class="col-xs-12">
                                 <p class="small">9F Viet A Building, Duy Tan Street, Cau Giay District, Ha Noi</p>
@@ -69,7 +69,7 @@ $template_url = get_bloginfo('template_url');
                             </div>
                         </div>
                         <div class="row-gap-medium"></div>
-                        <label>ダナン支店</label>
+                        <label><?php echo translateX('Da Nang branch') ?></label>
                         <div class="row">
                             <div class="col-xs-12">
                                 <small>A/H Zone 1F Danang Software Park - 02 Quang Trung,Hai Chau District, Da Nang</small>
