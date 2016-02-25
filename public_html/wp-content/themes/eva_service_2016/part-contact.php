@@ -4,7 +4,7 @@
         <div class="row">
             <div class="col-xs-12 no-padding-lr text-center">
                 <div class="caption full-width center-block contact-info">
-                    <p><?php echo translateX('From web forms, please feel free to contact us'); ?></p>
+                    <p><?php echo translateX('From Web forms, please feel free to contact us'); ?></p>
                 </div>
             </div>
             <div class="col-xs-12 footer-contact text-center">
