@@ -35,7 +35,8 @@ if (!empty($next_post)) {
     </div>
     <div class="row-gap-medium"></div>
     <div class="container center bpo-1 contact-width">
-        <?php // get_sidebar('news') ?>
+    <?php if (have_posts()) : ?>
+        <?php while (have_posts()) : the_post(); ?>
         <div class="content post-detail col-md-12">
             <div class="row">
                 <div class="post-date text-center">( <?php the_time('Y.m.d'); ?> )</div>
@@ -43,7 +44,7 @@ if (!empty($next_post)) {
                 <div class="row-gap-medium"></div>
                 <div class="post-content col-md-12 col-xs-12 no-padding-lr">
                     <img class="img-responsive" src="<?php echo !empty($featured_image['url']) ? $featured_image['url'] : $default_img; ?>" alt="<?php the_title(); ?>" style="margin: 0px auto 20px auto; display: block;" />
-                    <p style="text-align: justify;"><?php echo $post->post_content ?></p>
+                    <?php the_content(); ?>
                 </div>
                 <div class="clearfix"></div>
                 <div class="row-gap-huge"></div>
@@ -71,6 +72,8 @@ if (!empty($next_post)) {
             </div>
             <div class="row-gap-huge"></div>
         </div>
+        <?php endwhile; ?>
+    <?php endif; ?>
     </div>
 </div>
 <?php get_template_part('part-contact'); ?>
