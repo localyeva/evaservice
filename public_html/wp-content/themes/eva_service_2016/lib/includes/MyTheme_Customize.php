@@ -155,13 +155,7 @@ function theme_customize_register($wp_customize) {
     ));
 }
 
-function theme_customize_enqueue() {
-    wp_enqueue_script( 'customizer', get_template_directory_uri() . '/js/customizer.js' );
-    // wp_enqueue_script( 'text_editor_custom_control', includes_url('js/tinymce/tinymce.min.js'), array('jquery'));
-}
-
 add_action('customize_register', 'theme_customize_register');
-add_action( 'wp_enqueue_scripts', 'theme_customize_enqueue' );
 
 function get_part_work_environment_movie_cover() {
     return esc_url(get_theme_mod('part_work_environment_movie_cover'));
